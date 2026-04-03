@@ -34,6 +34,20 @@
       border-radius: 10px;
       max-width: 600px;
     }
+
+    button {
+      margin-top: 15px;
+      padding: 10px 15px;
+      background: #ef4444;
+      border: none;
+      border-radius: 6px;
+      color: white;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #dc2626;
+    }
   </style>
 </head>
 <body>
@@ -43,19 +57,29 @@
   <div class="box">
     <p>Live JSON endpoints:</p>
 
-    <div class="endpoint"><a href="./api/leaderboard.json">leaderboard.json</a></div>
-    <div class="endpoint"><a href="./api/leaderboardActiveTrades.json">leaderboardActiveTrades.json</a></div>
-    <div class="endpoint"><a href="./api/leaderboardReduced.json">leaderboardReduced.json</a></div>
-    <div class="endpoint"><a href="./api/leaderboardReducedBestHalfRoi.json">leaderboardReducedBestHalfRoi.json</a></div>
-    <div class="endpoint"><a href="./api/leaderboardTradingHistory.json">leaderboardTradingHistory.json</a></div>
-    <div class="endpoint"><a href="./api/mostTradedTokensByUsers.json">mostTradedTokensByUsers.json</a></div>
-    <div class="endpoint"><a href="./api/mostTradedTokensByVolume.json">mostTradedTokensByVolume.json</a></div>
-    <div class="endpoint"><a href="./api/openTrades.json">openTrades.json</a></div>
-    <div class="endpoint"><a href="./api/preferredTokens.json">preferredTokens.json</a></div>
-    <div class="endpoint"><a href="./api/signalOpenScore.json">signalOpenScore.json</a></div>
-    <div class="endpoint"><a href="./api/top500.json">top500.json</a></div>
-    <div class="endpoint"><a href="./api/lastUpdate.json">lastUpdate.json</a></div>
+    <div class="endpoint"><a href="./api/leaderboard.json" target="_blank">leaderboard.json</a></div>
+    <div class="endpoint"><a href="./api/leaderboardActiveTrades.json" target="_blank">leaderboardActiveTrades.json</a></div>
+    <div class="endpoint"><a href="./api/leaderboardReduced.json" target="_blank">leaderboardReduced.json</a></div>
+    <div class="endpoint"><a href="./api/leaderboardReducedBestHalfRoi.json" target="_blank">leaderboardReducedBestHalfRoi.json</a></div>
+    <div class="endpoint"><a href="./api/leaderboardTradingHistory.json" target="_blank">leaderboardTradingHistory.json</a></div>
+    <div class="endpoint"><a href="./api/mostTradedTokensByUsers.json" target="_blank">mostTradedTokensByUsers.json</a></div>
+    <div class="endpoint"><a href="./api/mostTradedTokensByVolume.json" target="_blank">mostTradedTokensByVolume.json</a></div>
+    <div class="endpoint"><a href="./api/openTrades.json" target="_blank">openTrades.json</a></div>
+    <div class="endpoint"><a href="./api/preferredTokens.json" target="_blank">preferredTokens.json</a></div>
+    <div class="endpoint"><a href="./api/signalOpenScore.json" target="_blank">signalOpenScore.json</a></div>
+    <div class="endpoint"><a href="./api/top500.json" target="_blank">top500.json</a></div>
+    <div class="endpoint"><a href="./api/lastUpdate.json" target="_blank">lastUpdate.json</a></div>
+
+    <button onclick="hardRefresh()">🔄 Clear Cache & Reload</button>
   </div>
+
+  <script>
+    function hardRefresh() {
+      // bust cache by adding timestamp
+      const url = window.location.origin + window.location.pathname + "?t=" + Date.now();
+      window.location.href = url;
+    }
+  </script>
 
 </body>
 </html>
