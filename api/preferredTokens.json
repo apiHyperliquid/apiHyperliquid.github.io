@@ -1,6 +1,6 @@
 {
   "title": "Wallet Preferred Tokens",
-  "total_wallets": 514,
+  "total_wallets": 519,
   "wallets": [
     {
       "ethAddress": "0x004397a3573c77bdf6c422314e88cc0a805a7e71",
@@ -178,6 +178,19 @@
         }
       ],
       "favoriteToken": "xyz:CL"
+    },
+    {
+      "ethAddress": "0x00cf2c690098a1b4362a3a9aa410f5474312d116",
+      "tokens": [
+        "ETH"
+      ],
+      "tokenVolume": [
+        {
+          "coin": "ETH",
+          "estimatedVolume": 54783.23127999999
+        }
+      ],
+      "favoriteToken": "ETH"
     },
     {
       "ethAddress": "0x00f8da96829820da934fc4a4cb7d39031ce7454b",
@@ -371,15 +384,15 @@
       "tokenVolume": [
         {
           "coin": "ETH",
-          "estimatedVolume": 282243731.70286965
+          "estimatedVolume": 284106377.50161964
         },
         {
           "coin": "BTC",
-          "estimatedVolume": 159422818.35220987
+          "estimatedVolume": 159499029.35220987
         },
         {
           "coin": "HYPE",
-          "estimatedVolume": 73226296.95497207
+          "estimatedVolume": 73432532.73860209
         }
       ],
       "favoriteToken": "ETH"
@@ -521,7 +534,7 @@
         },
         {
           "coin": "ETH",
-          "estimatedVolume": 262063.20004000107
+          "estimatedVolume": 233794.5666100011
         },
         {
           "coin": "xyz:MU",
@@ -710,7 +723,8 @@
         "SOL",
         "ORDI",
         "BTC",
-        "DOGE"
+        "DOGE",
+        "AAVE"
       ],
       "tokenVolume": [
         {
@@ -732,6 +746,10 @@
         {
           "coin": "DOGE",
           "estimatedVolume": 338989.01271469274
+        },
+        {
+          "coin": "AAVE",
+          "estimatedVolume": 181020.00000000003
         }
       ],
       "favoriteToken": "ETH"
@@ -754,7 +772,7 @@
       "tokenVolume": [
         {
           "coin": "ENA",
-          "estimatedVolume": 57378.63927176781
+          "estimatedVolume": 56695.13455176781
         },
         {
           "coin": "BTC",
@@ -1205,11 +1223,11 @@
       "tokenVolume": [
         {
           "coin": "BTC",
-          "estimatedVolume": 41581830.3270301
+          "estimatedVolume": 41962555.3270301
         },
         {
           "coin": "ETH",
-          "estimatedVolume": 14828419.688410003
+          "estimatedVolume": 15177484.68841
         },
         {
           "coin": "@142",
@@ -1261,8 +1279,8 @@
         "ENA",
         "xyz:CL",
         "xyz:COIN",
-        "PENDLE",
         "xyz:CRCL",
+        "PENDLE",
         "xyz:COPPER",
         "xyz:MSTR",
         "AAVE",
@@ -1302,12 +1320,12 @@
           "estimatedVolume": 46541.301029999166
         },
         {
-          "coin": "PENDLE",
-          "estimatedVolume": 30177.3831000742
+          "coin": "xyz:CRCL",
+          "estimatedVolume": 42084.69660600485
         },
         {
-          "coin": "xyz:CRCL",
-          "estimatedVolume": 28984.78617600204
+          "coin": "PENDLE",
+          "estimatedVolume": 30177.3831000742
         },
         {
           "coin": "xyz:COPPER",
@@ -1719,7 +1737,7 @@
         },
         {
           "coin": "CC",
-          "estimatedVolume": 3209.9219497221998
+          "estimatedVolume": 6583.4856690656
         }
       ],
       "favoriteToken": "xyz:BRENTOIL"
@@ -2401,8 +2419,8 @@
         "VVV",
         "FET",
         "ETH",
-        "SOL",
         "POLYX",
+        "SOL",
         "HYPE"
       ],
       "tokenVolume": [
@@ -2427,12 +2445,12 @@
           "estimatedVolume": 19192.84839
         },
         {
-          "coin": "SOL",
-          "estimatedVolume": 14398.901709999911
-        },
-        {
           "coin": "POLYX",
           "estimatedVolume": 10222.328250999999
+        },
+        {
+          "coin": "SOL",
+          "estimatedVolume": 9597.520789999911
         },
         {
           "coin": "HYPE",
@@ -2511,7 +2529,7 @@
       "tokenVolume": [
         {
           "coin": "BTC",
-          "estimatedVolume": 4041965.2281400017
+          "estimatedVolume": 4077792.8581400015
         },
         {
           "coin": "xyz:SP500",
@@ -2559,7 +2577,7 @@
       "tokenVolume": [
         {
           "coin": "xyz:CL",
-          "estimatedVolume": 17120167.908203047
+          "estimatedVolume": 18207908.571466796
         },
         {
           "coin": "BTC",
@@ -2757,7 +2775,7 @@
       "tokenVolume": [
         {
           "coin": "BTC",
-          "estimatedVolume": 16979945.245070007
+          "estimatedVolume": 16768807.577080008
         },
         {
           "coin": "ZEC",
@@ -4226,7 +4244,7 @@
       "tokenVolume": [
         {
           "coin": "xyz:CL",
-          "estimatedVolume": 51628105.31915206
+          "estimatedVolume": 51691423.422571056
         },
         {
           "coin": "xyz:BRENTOIL",
@@ -4266,7 +4284,7 @@
         },
         {
           "coin": "km:USOIL",
-          "estimatedVolume": 285641.1638299902
+          "estimatedVolume": 308128.1272099852
         },
         {
           "coin": "INJ",
@@ -4302,7 +4320,7 @@
         },
         {
           "coin": "@230",
-          "estimatedVolume": 25568.7672792
+          "estimatedVolume": 28068.8872032
         },
         {
           "coin": "xyz:HOOD",
@@ -4604,7 +4622,7 @@
       "tokenVolume": [
         {
           "coin": "xyz:CRCL",
-          "estimatedVolume": 424285.2344479983
+          "estimatedVolume": 435160.3676179982
         },
         {
           "coin": "xyz:MSTR",
@@ -4673,7 +4691,7 @@
         },
         {
           "coin": "VVV",
-          "estimatedVolume": 538212.9457387936
+          "estimatedVolume": 523069.5588078751
         },
         {
           "coin": "UNI",
@@ -4789,24 +4807,6 @@
       "favoriteToken": "xyz:CL"
     },
     {
-      "ethAddress": "0x2c5dc7e67fce4bc252221c46c1cdc7651838b2d8",
-      "tokens": [
-        "ZEC",
-        "NEAR"
-      ],
-      "tokenVolume": [
-        {
-          "coin": "ZEC",
-          "estimatedVolume": 263486.6902000024
-        },
-        {
-          "coin": "NEAR",
-          "estimatedVolume": 74684.04013995267
-        }
-      ],
-      "favoriteToken": "ZEC"
-    },
-    {
       "ethAddress": "0x2c6f7831be3fe15cc7025672f27623a921553725",
       "tokens": [
         "ETH"
@@ -4846,6 +4846,99 @@
         }
       ],
       "favoriteToken": "xyz:BRENTOIL"
+    },
+    {
+      "ethAddress": "0x2e2e76c5e1d91a78ec41672da4640620d88a1c50",
+      "tokens": [
+        "xyz:CL",
+        "HYPE",
+        "xyz:EUR",
+        "xyz:SP500",
+        "xyz:BRENTOIL",
+        "BTC",
+        "xyz:JPY",
+        "xyz:COIN",
+        "JUP",
+        "xyz:CRCL",
+        "FET",
+        "MON",
+        "LINK",
+        "MORPHO",
+        "RENDER",
+        "NEAR",
+        "POL"
+      ],
+      "tokenVolume": [
+        {
+          "coin": "xyz:CL",
+          "estimatedVolume": 3767322.2503220304
+        },
+        {
+          "coin": "HYPE",
+          "estimatedVolume": 2978411.1933900225
+        },
+        {
+          "coin": "xyz:EUR",
+          "estimatedVolume": 2893795.376179949
+        },
+        {
+          "coin": "xyz:SP500",
+          "estimatedVolume": 1719183.6867
+        },
+        {
+          "coin": "xyz:BRENTOIL",
+          "estimatedVolume": 1644509.5052800486
+        },
+        {
+          "coin": "BTC",
+          "estimatedVolume": 375899.8029899999
+        },
+        {
+          "coin": "xyz:JPY",
+          "estimatedVolume": 333831.9595
+        },
+        {
+          "coin": "xyz:COIN",
+          "estimatedVolume": 310885.9243200003
+        },
+        {
+          "coin": "JUP",
+          "estimatedVolume": 203833.94185933023
+        },
+        {
+          "coin": "xyz:CRCL",
+          "estimatedVolume": 134404.03444199997
+        },
+        {
+          "coin": "FET",
+          "estimatedVolume": 16273.72217
+        },
+        {
+          "coin": "MON",
+          "estimatedVolume": 13421.146560000001
+        },
+        {
+          "coin": "LINK",
+          "estimatedVolume": 10254.128079999999
+        },
+        {
+          "coin": "MORPHO",
+          "estimatedVolume": 5954.500319999999
+        },
+        {
+          "coin": "RENDER",
+          "estimatedVolume": 5546.88366
+        },
+        {
+          "coin": "NEAR",
+          "estimatedVolume": 2324.17
+        },
+        {
+          "coin": "POL",
+          "estimatedVolume": 1820.45
+        }
+      ],
+      "favoriteToken": "xyz:CL"
     },
     {
       "ethAddress": "0x2e5f3814aeeeff88a459e42451970828e385172f",
@@ -5014,7 +5107,7 @@
       "tokenVolume": [
         {
           "coin": "BTC",
-          "estimatedVolume": 867608.6426000003
+          "estimatedVolume": 875248.8304300002
         },
         {
           "coin": "SOL",
@@ -5022,7 +5115,7 @@
         },
         {
           "coin": "HYPE",
-          "estimatedVolume": 350803.0070300015
+          "estimatedVolume": 351770.58310000226
         },
         {
           "coin": "ETH",
@@ -5371,8 +5464,8 @@
         "SOL",
         "xyz:HOOD",
         "AAVE",
-        "TAO",
-        "XLM"
+        "XLM",
+        "TAO"
       ],
       "tokenVolume": [
         {
@@ -5404,12 +5497,12 @@
           "estimatedVolume": 2874515.375520135
         },
         {
-          "coin": "TAO",
-          "estimatedVolume": 1511043.9482699926
+          "coin": "XLM",
+          "estimatedVolume": 1727666.7471571446
         },
         {
-          "coin": "XLM",
-          "estimatedVolume": 861381.2458573993
+          "coin": "TAO",
+          "estimatedVolume": 1511043.9482699926
         }
       ],
       "favoriteToken": "BTC"
@@ -5476,7 +5569,7 @@
         },
         {
           "coin": "cash:INTC",
-          "estimatedVolume": 1025172.0124729769
+          "estimatedVolume": 1029370.903176977
         },
         {
           "coin": "cash:EWY",
@@ -5484,7 +5577,7 @@
         },
         {
           "coin": "cash:KWEB",
-          "estimatedVolume": 755616.2850000097
+          "estimatedVolume": 757068.3346000096
         },
         {
           "coin": "cash:USA500",
@@ -5551,7 +5644,7 @@
       "tokenVolume": [
         {
           "coin": "ETH",
-          "estimatedVolume": 234537.14008999945
+          "estimatedVolume": 261330.99008999945
         },
         {
           "coin": "BTC",
@@ -5984,7 +6077,7 @@
         },
         {
           "coin": "xyz:SKHX",
-          "estimatedVolume": 350532.44245000056
+          "estimatedVolume": 357321.68589000095
         },
         {
           "coin": "xyz:HIMS",
@@ -6342,7 +6435,7 @@
       "tokenVolume": [
         {
           "coin": "xyz:SP500",
-          "estimatedVolume": 5618725.202400001
+          "estimatedVolume": 5894882.5891
         },
         {
           "coin": "xyz:CL",
@@ -6749,7 +6842,7 @@
         },
         {
           "coin": "@305",
-          "estimatedVolume": 27302.28439629582
+          "estimatedVolume": 27351.83540829582
         },
         {
           "coin": "@260",
@@ -7144,7 +7237,7 @@
       "tokenVolume": [
         {
           "coin": "BTC",
-          "estimatedVolume": 16767237.649569971
+          "estimatedVolume": 16807411.26488997
         },
         {
           "coin": "HYPE",
@@ -7549,6 +7642,54 @@
       "favoriteToken": "BTC"
     },
     {
+      "ethAddress": "0x4860c54450125d6a93fd842d612c8bdd82c54d15",
+      "tokens": [
+        "ENA",
+        "SOL",
+        "ETH",
+        "BTC",
+        "XRP",
+        "DOGE",
+        "xyz:GOLD",
+        "FET"
+      ],
+      "tokenVolume": [
+        {
+          "coin": "ENA",
+          "estimatedVolume": 1463148.8177175522
+        },
+        {
+          "coin": "SOL",
+          "estimatedVolume": 765921.4717800115
+        },
+        {
+          "coin": "ETH",
+          "estimatedVolume": 507679.26988999697
+        },
+        {
+          "coin": "BTC",
+          "estimatedVolume": 86506.12969999999
+        },
+        {
+          "coin": "XRP",
+          "estimatedVolume": 79842.15099980279
+        },
+        {
+          "coin": "DOGE",
+          "estimatedVolume": 38898.3391073318
+        },
+        {
+          "coin": "xyz:GOLD",
+          "estimatedVolume": 7741.722379999999
+        },
+        {
+          "coin": "FET",
+          "estimatedVolume": 5033.303350005601
+        }
+      ],
+      "favoriteToken": "ENA"
+    },
+    {
       "ethAddress": "0x48ec0004494081e8332589faf0747d568da79faf",
       "tokens": [
         "ETH",
@@ -7581,7 +7722,7 @@
         },
         {
           "coin": "ARB",
-          "estimatedVolume": 6892220.271144011
+          "estimatedVolume": 7119663.176579496
         },
         {
           "coin": "HYPE",
@@ -7680,7 +7821,7 @@
       "tokenVolume": [
         {
           "coin": "BTC",
-          "estimatedVolume": 4892296.9162800005
+          "estimatedVolume": 4922865.316280001
         },
         {
           "coin": "ETH",
@@ -7969,6 +8110,7 @@
         "xyz:NVDA",
         "CAKE",
         "HYPE",
+        "xyz:EUR",
         "TST",
         "TON",
         "kNEIRO",
@@ -8065,6 +8207,10 @@
         {
           "coin": "HYPE",
           "estimatedVolume": 42788.57526996215
+        },
+        {
+          "coin": "xyz:EUR",
+          "estimatedVolume": 42426.00000000001
         },
         {
           "coin": "TST",
@@ -8282,7 +8428,7 @@
       "tokenVolume": [
         {
           "coin": "BTC",
-          "estimatedVolume": 1262944.3988400006
+          "estimatedVolume": 1274450.3616400007
         },
         {
           "coin": "xyz:CL",
@@ -8554,6 +8700,49 @@
         }
       ],
       "favoriteToken": "BTC"
+    },
+    {
+      "ethAddress": "0x54aba9aefa6c801e3364c93063bc27933905c7ae",
+      "tokens": [
+        "TAO",
+        "ASTER",
+        "xyz:CRCL",
+        "AZTEC",
+        "MORPHO",
+        "HYPE",
+        "VVV"
+      ],
+      "tokenVolume": [
+        {
+          "coin": "TAO",
+          "estimatedVolume": 54792.76924000199
+        },
+        {
+          "coin": "ASTER",
+          "estimatedVolume": 45506.991318869404
+        },
+        {
+          "coin": "xyz:CRCL",
+          "estimatedVolume": 30739.938557998335
+        },
+        {
+          "coin": "AZTEC",
+          "estimatedVolume": 24755.989721605
+        },
+        {
+          "coin": "MORPHO",
+          "estimatedVolume": 19601.2312999956
+        },
+        {
+          "coin": "HYPE",
+          "estimatedVolume": 8983.778
+        },
+        {
+          "coin": "VVV",
+          "estimatedVolume": 6734.8600629632
+        }
+      ],
+      "favoriteToken": "TAO"
     },
     {
       "ethAddress": "0x54c3bbda87e624e460d4ac44ee28cffdd92c17d0",
@@ -8936,7 +9125,7 @@
         },
         {
           "coin": "ETH",
-          "estimatedVolume": 1417722.1468899995
+          "estimatedVolume": 1406972.1468899995
         },
         {
           "coin": "PENDLE",
@@ -9096,7 +9285,7 @@
         },
         {
           "coin": "flx:GAS",
-          "estimatedVolume": 3139332.605020159
+          "estimatedVolume": 3139343.884620159
         },
         {
           "coin": "cash:WTI",
@@ -9116,7 +9305,7 @@
         },
         {
           "coin": "cash:USA500",
-          "estimatedVolume": 2128639.1565000056
+          "estimatedVolume": 2131516.7220000057
         },
         {
           "coin": "xyz:SP500",
@@ -9140,7 +9329,7 @@
         },
         {
           "coin": "xyz:HIMS",
-          "estimatedVolume": 746434.3135200049
+          "estimatedVolume": 784727.4318000048
         },
         {
           "coin": "@230",
@@ -9152,11 +9341,11 @@
         },
         {
           "coin": "xyz:BIRD",
-          "estimatedVolume": 265906.09730003955
+          "estimatedVolume": 282476.4442000396
         },
         {
           "coin": "@150",
-          "estimatedVolume": 259721.6951408393
+          "estimatedVolume": 264838.5477248393
         },
         {
           "coin": "hyna:BASED",
@@ -9234,7 +9423,7 @@
         },
         {
           "coin": "HYPE",
-          "estimatedVolume": 294972.9486900023
+          "estimatedVolume": 295219.8846900023
         },
         {
           "coin": "LIT",
@@ -9242,7 +9431,7 @@
         },
         {
           "coin": "VVV",
-          "estimatedVolume": 86817.27779999322
+          "estimatedVolume": 93123.13716799121
         },
         {
           "coin": "FARTCOIN",
@@ -9378,7 +9567,7 @@
       "tokenVolume": [
         {
           "coin": "BTC",
-          "estimatedVolume": 7615155.886059999
+          "estimatedVolume": 7589155.76422
         },
         {
           "coin": "xyz:SILVER",
@@ -9507,6 +9696,59 @@
       "favoriteToken": "ORDI"
     },
     {
+      "ethAddress": "0x5b5f798b94f54d33ba316c8b1c837e930c90c052",
+      "tokens": [
+        "BTC",
+        "ETH",
+        "xyz:BRENTOIL",
+        "ZEC",
+        "SOL",
+        "FARTCOIN",
+        "kPEPE",
+        "PENGU",
+        "@107"
+      ],
+      "tokenVolume": [
+        {
+          "coin": "BTC",
+          "estimatedVolume": 73063986.05004999
+        },
+        {
+          "coin": "ETH",
+          "estimatedVolume": 19018031.103909977
+        },
+        {
+          "coin": "xyz:BRENTOIL",
+          "estimatedVolume": 17892692.63432183
+        },
+        {
+          "coin": "ZEC",
+          "estimatedVolume": 10259394.132500008
+        },
+        {
+          "coin": "SOL",
+          "estimatedVolume": 3463515.745420852
+        },
+        {
+          "coin": "FARTCOIN",
+          "estimatedVolume": 2027492.7207576178
+        },
+        {
+          "coin": "kPEPE",
+          "estimatedVolume": 1525609.630037368
+        },
+        {
+          "coin": "PENGU",
+          "estimatedVolume": 237591.707855832
+        },
+        {
+          "coin": "@107",
+          "estimatedVolume": 82501.79323999616
+        }
+      ],
+      "favoriteToken": "BTC"
+    },
+    {
       "ethAddress": "0x5bac31bdb800ee769583024dcc7562f0016c74e0",
       "tokens": [
         "SOL",
@@ -9555,85 +9797,6 @@
         {
           "coin": "@151",
           "estimatedVolume": 9999.797260000001
-        }
-      ],
-      "favoriteToken": "SOL"
-    },
-    {
-      "ethAddress": "0x5bc0a9837511d23c3a0adf1f82d97d7600eafcd5",
-      "tokens": [
-        "hyna:BASED",
-        "@150",
-        "@305"
-      ],
-      "tokenVolume": [
-        {
-          "coin": "hyna:BASED",
-          "estimatedVolume": 78543.304836042
-        },
-        {
-          "coin": "@150",
-          "estimatedVolume": 1912.6425836
-        },
-        {
-          "coin": "@305",
-          "estimatedVolume": 1472.76926395612
-        }
-      ],
-      "favoriteToken": "hyna:BASED"
-    },
-    {
-      "ethAddress": "0x5c0aed74917667f07786947ed677a7e3c808e006",
-      "tokens": [
-        "xyz:CL",
-        "BTC",
-        "xyz:SILVER",
-        "xyz:CRCL"
-      ],
-      "tokenVolume": [
-        {
-          "coin": "xyz:CL",
-          "estimatedVolume": 1665617.1707799137
-        },
-        {
-          "coin": "BTC",
-          "estimatedVolume": 1401499.4094299998
-        },
-        {
-          "coin": "xyz:SILVER",
-          "estimatedVolume": 39979.92356999135
-        },
-        {
-          "coin": "xyz:CRCL",
-          "estimatedVolume": 1061.8198110000799
-        }
-      ],
-      "favoriteToken": "xyz:CL"
-    },
-    {
-      "ethAddress": "0x5c7e7b3a5fcf12fa561374be3bba6cb3997dc5ee",
-      "tokens": [
-        "SOL",
-        "ETH",
-        "BTC",
-        "xyz:BRENTOIL"
-      ],
-      "tokenVolume": [
-        {
-          "coin": "SOL",
-          "estimatedVolume": 11773756.33560008
-        },
-        {
-          "coin": "ETH",
-          "estimatedVolume": 2271552.472959997
-        },
-        {
-          "coin": "BTC",
-          "estimatedVolume": 2057281.1528800006
-        },
-        {
-          "coin": "xyz:BRENTOIL",
-          "estimatedVolume": 83552.64204999866
         }
       ],
       "favoriteToken": "SOL"
@@ -9866,29 +10029,6 @@
       "favoriteToken": "BTC"
     },
     {
-      "ethAddress": "0x5f069004309f086bd09c7043b691b989a399da16",
-      "tokens": [
-        "BTC",
-        "xyz:SP500",
-        "xyz:GOLD"
-      ],
-      "tokenVolume": [
-        {
-          "coin": "BTC",
-          "estimatedVolume": 19397896.21641002
-        },
-        {
-          "coin": "xyz:SP500",
-          "estimatedVolume": 135445.1328
-        },
-        {
-          "coin": "xyz:GOLD",
-          "estimatedVolume": 114443.65855000001
-        }
-      ],
-      "favoriteToken": "BTC"
-    },
-    {
       "ethAddress": "0x5f6eb0dceaae65eca27c926bdccb0a7fb13bc25e",
       "tokens": [
         "BTC",
@@ -9939,7 +10079,7 @@
       "tokenVolume": [
         {
           "coin": "BTC",
-          "estimatedVolume": 2673910.9868199998
+          "estimatedVolume": 2674220.4921
         }
       ],
       "favoriteToken": "BTC"
@@ -10451,7 +10591,7 @@
         },
         {
           "coin": "ZEC",
-          "estimatedVolume": 1810276.8330000192
+          "estimatedVolume": 1859867.5454000258
         },
         {
           "coin": "xyz:EWY",
@@ -10734,7 +10874,7 @@
       "tokenVolume": [
         {
           "coin": "xyz:CL",
-          "estimatedVolume": 17761662.98381994
+          "estimatedVolume": 17848762.98381994
         }
       ],
       "favoriteToken": "xyz:CL"
@@ -10792,7 +10932,7 @@
       "tokenVolume": [
         {
           "coin": "xyz:CRCL",
-          "estimatedVolume": 2139693.462560002
+          "estimatedVolume": 2152813.462560002
         },
         {
           "coin": "ETH",
@@ -10895,6 +11035,162 @@
         {
           "coin": "xyz:SMSN",
           "estimatedVolume": 21013.097790007185
+        }
+      ],
+      "favoriteToken": "SOL"
+    },
+    {
+      "ethAddress": "0x667d7b03958543a03c4018310093722f33353fd8",
+      "tokens": [
+        "BTC",
+        "SOL",
+        "XRP",
+        "xyz:SILVER",
+        "TRX",
+        "RENDER",
+        "ADA",
+        "ETH",
+        "SUI",
+        "ZEC",
+        "xyz:CL",
+        "DOGE",
+        "DOT",
+        "ENA",
+        "xyz:AMZN",
+        "LTC",
+        "TON",
+        "xyz:XYZ100",
+        "INJ",
+        "XLM",
+        "xyz:TSLA",
+        "VVV"
+      ],
+      "tokenVolume": [
+        {
+          "coin": "BTC",
+          "estimatedVolume": 16609445.758320006
+        },
+        {
+          "coin": "SOL",
+          "estimatedVolume": 4427813.143369947
+        },
+        {
+          "coin": "XRP",
+          "estimatedVolume": 4347002.938411791
+        },
+        {
+          "coin": "xyz:SILVER",
+          "estimatedVolume": 1948903.1909801103
+        },
+        {
+          "coin": "TRX",
+          "estimatedVolume": 1251670.69592719
+        },
+        {
+          "coin": "RENDER",
+          "estimatedVolume": 1122920.4650170375
+        },
+        {
+          "coin": "ADA",
+          "estimatedVolume": 638770.9352365
+        },
+        {
+          "coin": "ETH",
+          "estimatedVolume": 629646.3148799996
+        },
+        {
+          "coin": "SUI",
+          "estimatedVolume": 565850.5297831377
+        },
+        {
+          "coin": "ZEC",
+          "estimatedVolume": 515744.05839998234
+        },
+        {
+          "coin": "xyz:CL",
+          "estimatedVolume": 470607.9453700257
+        },
+        {
+          "coin": "DOGE",
+          "estimatedVolume": 402792.22267256776
+        },
+        {
+          "coin": "DOT",
+          "estimatedVolume": 377364.2860239928
+        },
+        {
+          "coin": "ENA",
+          "estimatedVolume": 318217.50210000004
+        },
+        {
+          "coin": "xyz:AMZN",
+          "estimatedVolume": 304407.85373
+        },
+        {
+          "coin": "LTC",
+          "estimatedVolume": 274479.23553999397
+        },
+        {
+          "coin": "TON",
+          "estimatedVolume": 267203.7831510275
+        },
+        {
+          "coin": "xyz:XYZ100",
+          "estimatedVolume": 184330.7941
+        },
+        {
+          "coin": "INJ",
+          "estimatedVolume": 142764.28629999998
+        },
+        {
+          "coin": "XLM",
+          "estimatedVolume": 134717.04070359998
+        },
+        {
+          "coin": "xyz:TSLA",
+          "estimatedVolume": 42504.13523000457
+        },
+        {
+          "coin": "VVV",
+          "estimatedVolume": 2097.699845985954
+        }
+      ],
+      "favoriteToken": "BTC"
+    },
+    {
+      "ethAddress": "0x673b2f9900460b05ce8d670ca7ba7b06335e46ff",
+      "tokens": [
+        "SOL",
+        "HYPE",
+        "BTC",
+        "@156",
+        "@142",
+        "@107"
+      ],
+      "tokenVolume": [
+        {
+          "coin": "SOL",
+          "estimatedVolume": 22465487.669570163
+        },
+        {
+          "coin": "HYPE",
+          "estimatedVolume": 3650285.6026603403
+        },
+        {
+          "coin": "BTC",
+          "estimatedVolume": 3617377.215630001
+        },
+        {
+          "coin": "@156",
+          "estimatedVolume": 227657.94914993615
+        },
+        {
+          "coin": "@142",
+          "estimatedVolume": 145062.22593999997
+        },
+        {
+          "coin": "@107",
+          "estimatedVolume": 4811.4382000000005
         }
       ],
       "favoriteToken": "SOL"
@@ -11197,7 +11493,7 @@
         },
         {
           "coin": "xyz:GOLD",
-          "estimatedVolume": 775213.6301199998
+          "estimatedVolume": 766209.4301199998
         },
         {
           "coin": "SOL",
@@ -11839,7 +12135,7 @@
       "tokenVolume": [
         {
           "coin": "BTC",
-          "estimatedVolume": 11350825.13812999
+          "estimatedVolume": 11069609.13812999
         },
         {
           "coin": "xyz:BRENTOIL",
@@ -12603,11 +12899,11 @@
       "tokenVolume": [
         {
           "coin": "BTC",
-          "estimatedVolume": 18077077.16665
+          "estimatedVolume": 19209382.67622
         },
         {
           "coin": "ETH",
-          "estimatedVolume": 10974898.364769977
+          "estimatedVolume": 11818548.571499977
         }
       ],
       "favoriteToken": "BTC"
@@ -12963,7 +13259,7 @@
       "tokenVolume": [
         {
           "coin": "HYPE",
-          "estimatedVolume": 1099232.1577098751
+          "estimatedVolume": 1096206.663479875
         },
         {
           "coin": "xyz:SP500",
@@ -13186,6 +13482,39 @@
         }
       ],
       "favoriteToken": "@305"
+    },
+    {
+      "ethAddress": "0x79155bf78b240bf43849de68797acbf8eacc07b6",
+      "tokens": [
+        "BTC",
+        "MON",
+        "HYPE",
+        "@107",
+        "@305"
+      ],
+      "tokenVolume": [
+        {
+          "coin": "BTC",
+          "estimatedVolume": 9844412.75942
+        },
+        {
+          "coin": "MON",
+          "estimatedVolume": 1955080.8873721142
+        },
+        {
+          "coin": "HYPE",
+          "estimatedVolume": 383704.7913900234
+        },
+        {
+          "coin": "@107",
+          "estimatedVolume": 56536.942420004634
+        },
+        {
+          "coin": "@305",
+          "estimatedVolume": 14357.519684440096
+        }
+      ],
+      "favoriteToken": "BTC"
     },
     {
       "ethAddress": "0x7928367337f2315e54b0e2809eae446c99593aa8",
@@ -13743,7 +14072,7 @@
         },
         {
           "coin": "ALGO",
-          "estimatedVolume": 22988.88295029139
+          "estimatedVolume": 23804.639770291393
         },
         {
           "coin": "STABLE",
@@ -15085,6 +15414,24 @@
       "favoriteToken": "xyz:SP500"
     },
     {
+      "ethAddress": "0x7ccf0a4b5deac65329e65e8c70876fc50cca9349",
+      "tokens": [
+        "BTC",
+        "xyz:MU"
+      ],
+      "tokenVolume": [
+        {
+          "coin": "BTC",
+          "estimatedVolume": 74055.43626
+        },
+        {
+          "coin": "xyz:MU",
+          "estimatedVolume": 10228.9450600004
+        }
+      ],
+      "favoriteToken": "BTC"
+    },
+    {
       "ethAddress": "0x7e19c25679a5f4cc1351e80d428ebe6df929adb1",
       "tokens": [
         "SOL",
@@ -15117,7 +15464,7 @@
         },
         {
           "coin": "ORDI",
-          "estimatedVolume": 131981.04565094822
+          "estimatedVolume": 136985.58817191367
         },
         {
           "coin": "HYPE",
@@ -15322,7 +15669,7 @@
       "tokenVolume": [
         {
           "coin": "ETH",
-          "estimatedVolume": 15116922.477970013
+          "estimatedVolume": 15093260.477970013
         },
         {
           "coin": "SOL",
@@ -15582,7 +15929,7 @@
         },
         {
           "coin": "ETH",
-          "estimatedVolume": 2420138.5353599917
+          "estimatedVolume": 3351848.04246999
         },
         {
           "coin": "ZEC",
@@ -15675,7 +16022,7 @@
       "tokenVolume": [
         {
           "coin": "xyz:BRENTOIL",
-          "estimatedVolume": 2568457.7726799576
+          "estimatedVolume": 2554017.7726799576
         },
         {
           "coin": "xyz:CL",
@@ -16235,7 +16582,7 @@
       "tokenVolume": [
         {
           "coin": "BTC",
-          "estimatedVolume": 48657452.12843003
+          "estimatedVolume": 49605420.54291003
         },
         {
           "coin": "HYPE",
@@ -16431,7 +16778,7 @@
       "tokenVolume": [
         {
           "coin": "xyz:XYZ100",
-          "estimatedVolume": 1187344.8784000003
+          "estimatedVolume": 1152302.2645999999
         },
         {
           "coin": "xyz:GOLD",
@@ -16475,6 +16822,44 @@
       "favoriteToken": "@305"
     },
     {
+      "ethAddress": "0x8d6427d95427d2af0c3e9a4c80e0e0e604299230",
+      "tokens": [
+        "vntl:ANTHROPIC",
+        "@230",
+        "ZEC",
+        "xyz:SKHX",
+        "@232",
+        "xyz:AMZN"
+      ],
+      "tokenVolume": [
+        {
+          "coin": "vntl:ANTHROPIC",
+          "estimatedVolume": 330877.2425199914
+        },
+        {
+          "coin": "@230",
+          "estimatedVolume": 122533.42069306092
+        },
+        {
+          "coin": "ZEC",
+          "estimatedVolume": 34568.78930000029
+        },
+        {
+          "coin": "xyz:SKHX",
+          "estimatedVolume": 26993.616089998883
+        },
+        {
+          "coin": "@232",
+          "estimatedVolume": 23932.305679998666
+        },
+        {
+          "coin": "xyz:AMZN",
+          "estimatedVolume": 23028.5874
+        }
+      ],
+      "favoriteToken": "vntl:ANTHROPIC"
+    },
+    {
       "ethAddress": "0x8d7d49eb9715a93eef4843b357cad5f5b9be7bda",
       "tokens": [
         "ENA",
@@ -16482,8 +16867,8 @@
         "ARB",
         "VVV",
         "LDO",
-        "FARTCOIN",
         "MON",
+        "FARTCOIN",
         "XMR",
         "ZEC",
         "PENGU",
@@ -16517,13 +16902,14 @@
         "DYDX",
         "SYRUP",
         "MET",
+        "ICP",
         "AIXBT",
         "FIL"
       ],
       "tokenVolume": [
         {
           "coin": "ENA",
-          "estimatedVolume": 214998.69979020744
+          "estimatedVolume": 223032.1613102074
         },
         {
           "coin": "ZRO",
@@ -16535,19 +16921,19 @@
         },
         {
           "coin": "VVV",
-          "estimatedVolume": 137814.8512459932
+          "estimatedVolume": 140270.68537399138
         },
         {
           "coin": "LDO",
           "estimatedVolume": 135630.77744800437
         },
         {
-          "coin": "FARTCOIN",
-          "estimatedVolume": 118004.55815734985
+          "coin": "MON",
+          "estimatedVolume": 121295.76622549057
         },
         {
-          "coin": "MON",
-          "estimatedVolume": 113813.23664760197
+          "coin": "FARTCOIN",
+          "estimatedVolume": 118004.55815734985
         },
         {
           "coin": "XMR",
@@ -16571,7 +16957,7 @@
         },
         {
           "coin": "AAVE",
-          "estimatedVolume": 88851.44873999908
+          "estimatedVolume": 91171.10824999902
         },
         {
           "coin": "XPL",
@@ -16583,7 +16969,7 @@
         },
         {
           "coin": "TAO",
-          "estimatedVolume": 82384.13719999942
+          "estimatedVolume": 83085.03163999942
         },
         {
           "coin": "VIRTUAL",
@@ -16607,7 +16993,7 @@
         },
         {
           "coin": "PUMP",
-          "estimatedVolume": 19482.405869153205
+          "estimatedVolume": 19684.699666153203
         },
         {
           "coin": "SPX",
@@ -16615,7 +17001,7 @@
         },
         {
           "coin": "OP",
-          "estimatedVolume": 16062.38831796448
+          "estimatedVolume": 16162.71637096448
         },
         {
           "coin": "CRV",
@@ -16680,6 +17066,10 @@
         {
           "coin": "MET",
           "estimatedVolume": 1512.62314
+        },
+        {
+          "coin": "ICP",
+          "estimatedVolume": 1503.5575800000001
         },
         {
           "coin": "AIXBT",
@@ -16773,7 +17163,7 @@
       "tokenVolume": [
         {
           "coin": "xyz:CL",
-          "estimatedVolume": 9365987.53610703
+          "estimatedVolume": 9582686.041608997
         },
         {
           "coin": "xyz:BRENTOIL",
@@ -17274,11 +17664,11 @@
       "tokenVolume": [
         {
           "coin": "BTC",
-          "estimatedVolume": 10889287.50339
+          "estimatedVolume": 11041691.50339
         },
         {
           "coin": "ETH",
-          "estimatedVolume": 5098434.928829992
+          "estimatedVolume": 5191572.928829992
         },
         {
           "coin": "@305",
@@ -18740,29 +19130,6 @@
       "favoriteToken": "AAVE"
     },
     {
-      "ethAddress": "0xa2e0c8c0aac9bcb8ee035fea012357d43ad48534",
-      "tokens": [
-        "@150",
-        "@305",
-        "@107"
-      ],
-      "tokenVolume": [
-        {
-          "coin": "@150",
-          "estimatedVolume": 48468.235534377316
-        },
-        {
-          "coin": "@305",
-          "estimatedVolume": 13702.1822210348
-        },
-        {
-          "coin": "@107",
-          "estimatedVolume": 29.6283
-        }
-      ],
-      "favoriteToken": "@150"
-    },
-    {
       "ethAddress": "0xa30eceaaebe2d2747361640d9ebc7ba7ae24b19d",
       "tokens": [
         "ZEC"
@@ -18784,8 +19151,8 @@
         "XMR",
         "xyz:GOLD",
         "@230",
-        "STBL",
         "TST",
+        "STBL",
         "flx:USDE"
       ],
       "tokenVolume": [
@@ -18814,12 +19181,12 @@
           "estimatedVolume": 199972.3804434
         },
         {
-          "coin": "STBL",
-          "estimatedVolume": 62333.46116335254
+          "coin": "TST",
+          "estimatedVolume": 63689.618557955066
         },
         {
-          "coin": "TST",
-          "estimatedVolume": 62171.07814147876
+          "coin": "STBL",
+          "estimatedVolume": 62333.46116335254
         },
         {
           "coin": "flx:USDE",
@@ -18827,194 +19194,6 @@
         }
       ],
       "favoriteToken": "xyz:BRENTOIL"
-    },
-    {
-      "ethAddress": "0xa31c8c9af718d35cac18bd2164efc7460e31a8de",
-      "tokens": [
-        "BTC",
-        "PURR",
-        "VIRTUAL",
-        "km:SMALL2000",
-        "NEAR",
-        "LIT",
-        "@166",
-        "@1",
-        "@230",
-        "@142",
-        "@182",
-        "@294",
-        "PURR/USDC",
-        "@6",
-        "@85",
-        "@23",
-        "@122",
-        "@51",
-        "@144",
-        "@13",
-        "@219",
-        "@8",
-        "@12",
-        "@40",
-        "@179",
-        "@111",
-        "@89",
-        "@155",
-        "@249",
-        "@87",
-        "@30",
-        "@57",
-        "@300",
-        "@107",
-        "@83",
-        "STX"
-      ],
-      "tokenVolume": [
-        {
-          "coin": "BTC",
-          "estimatedVolume": 441796.97857000004
-        },
-        {
-          "coin": "PURR",
-          "estimatedVolume": 102598.40616087893
-        },
-        {
-          "coin": "VIRTUAL",
-          "estimatedVolume": 73025.85414126725
-        },
-        {
-          "coin": "km:SMALL2000",
-          "estimatedVolume": 52470.85893999896
-        },
-        {
-          "coin": "NEAR",
-          "estimatedVolume": 48536.72895059669
-        },
-        {
-          "coin": "LIT",
-          "estimatedVolume": 35180.4922296274
-        },
-        {
-          "coin": "@166",
-          "estimatedVolume": 27934.499265862305
-        },
-        {
-          "coin": "@1",
-          "estimatedVolume": 24954.327610013523
-        },
-        {
-          "coin": "@230",
-          "estimatedVolume": 24573.782054100004
-        },
-        {
-          "coin": "@142",
-          "estimatedVolume": 23636.47948
-        },
-        {
-          "coin": "@182",
-          "estimatedVolume": 10029.664000000048
-        },
-        {
-          "coin": "@294",
-          "estimatedVolume": 5987.45211667873
-        },
-        {
-          "coin": "PURR/USDC",
-          "estimatedVolume": 4983.386271708
-        },
-        {
-          "coin": "@6",
-          "estimatedVolume": 3712.325376904812
-        },
-        {
-          "coin": "@85",
-          "estimatedVolume": 3631.7450219767916
-        },
-        {
-          "coin": "@23",
-          "estimatedVolume": 1924.373451156801
-        },
-        {
-          "coin": "@122",
-          "estimatedVolume": 1873.0450625858018
-        },
-        {
-          "coin": "@51",
-          "estimatedVolume": 1709.869679642996
-        },
-        {
-          "coin": "@144",
-          "estimatedVolume": 778.8450097227246
-        },
-        {
-          "coin": "@13",
-          "estimatedVolume": 659.2965137505
-        },
-        {
-          "coin": "@219",
-          "estimatedVolume": 513.047125021515
-        },
-        {
-          "coin": "@8",
-          "estimatedVolume": 342.025144672
-        },
-        {
-          "coin": "@12",
-          "estimatedVolume": 297.6211311801
-        },
-        {
-          "coin": "@40",
-          "estimatedVolume": 283.675774881
-        },
-        {
-          "coin": "@179",
-          "estimatedVolume": 242.839759145596
-        },
-        {
-          "coin": "@111",
-          "estimatedVolume": 200.120450414036
-        },
-        {
-          "coin": "@89",
-          "estimatedVolume": 195.73866054691197
-        },
-        {
-          "coin": "@155",
-          "estimatedVolume": 163.31757871467613
-        },
-        {
-          "coin": "@249",
-          "estimatedVolume": 149.99981294999998
-        },
-        {
-          "coin": "@87",
-          "estimatedVolume": 136.315439145963
-        },
-        {
-          "coin": "@30",
-          "estimatedVolume": 100.91944686746301
-        },
-        {
-          "coin": "@57",
-          "estimatedVolume": 47.15623737
-        },
-        {
-          "coin": "@300",
-          "estimatedVolume": 42.015921999999996
-        },
-        {
-          "coin": "@107",
-          "estimatedVolume": 19.94328
-        },
-        {
-          "coin": "@83",
-          "estimatedVolume": 2.1299259
-        },
-        {
-          "coin": "STX",
-          "estimatedVolume": 0.024607000000000004
-        }
-      ],
-      "favoriteToken": "BTC"
     },
     {
       "ethAddress": "0xa3841926df41af36b18836839b97a6f13853a374",
@@ -19307,7 +19486,7 @@
         },
         {
           "coin": "VVV",
-          "estimatedVolume": 667076.9852649403
+          "estimatedVolume": 658439.8770979401
         },
         {
           "coin": "HYPE",
@@ -19698,7 +19877,7 @@
       "tokenVolume": [
         {
           "coin": "BTC",
-          "estimatedVolume": 88694522.16181989
+          "estimatedVolume": 88831707.3618199
         },
         {
           "coin": "ETH",
@@ -19987,6 +20166,24 @@
       "favoriteToken": "xyz:BRENTOIL"
     },
     {
+      "ethAddress": "0xab2d30cad08c2aec0bf7e8bfe0032f656bf0ae39",
+      "tokens": [
+        "HYPE",
+        "BTC"
+      ],
+      "tokenVolume": [
+        {
+          "coin": "HYPE",
+          "estimatedVolume": 76002.875
+        },
+        {
+          "coin": "BTC",
+          "estimatedVolume": 71333.0
+        }
+      ],
+      "favoriteToken": "HYPE"
+    },
+    {
       "ethAddress": "0xab7c847603043495b74d4e17084c3c6bc45342e5",
       "tokens": [
         "xyz:NVDA",
@@ -20051,11 +20248,11 @@
         },
         {
           "coin": "xyz:SNDK",
-          "estimatedVolume": 482998.54716000013
+          "estimatedVolume": 485098.2383200001
         },
         {
           "coin": "xyz:BRENTOIL",
-          "estimatedVolume": 327177.36368000665
+          "estimatedVolume": 337564.3143800022
         },
         {
           "coin": "BTC",
@@ -20571,6 +20768,19 @@
       "favoriteToken": "HYPE"
     },
     {
+      "ethAddress": "0xb129b85aa1c14779001f60a9624b3bcb4d5fa587",
+      "tokens": [
+        "BTC"
+      ],
+      "tokenVolume": [
+        {
+          "coin": "BTC",
+          "estimatedVolume": 56007.64635
+        }
+      ],
+      "favoriteToken": "BTC"
+    },
+    {
       "ethAddress": "0xb27bbaadcdfeab937069b4d966ee6bf5a32c999b",
       "tokens": [
         "CC",
@@ -20664,11 +20874,11 @@
       "tokenVolume": [
         {
           "coin": "xyz:BRENTOIL",
-          "estimatedVolume": 6349261.197220019
+          "estimatedVolume": 6360656.293690019
         },
         {
           "coin": "xyz:CL",
-          "estimatedVolume": 6278628.247876993
+          "estimatedVolume": 6284051.446301993
         },
         {
           "coin": "xyz:SP500",
@@ -20701,7 +20911,7 @@
       "tokenVolume": [
         {
           "coin": "BTC",
-          "estimatedVolume": 4858366.649439997
+          "estimatedVolume": 5087384.163289997
         },
         {
           "coin": "xyz:SP500",
@@ -20783,24 +20993,6 @@
         {
           "coin": "xyz:CRCL",
           "estimatedVolume": 7933.738940000001
-        }
-      ],
-      "favoriteToken": "@305"
-    },
-    {
-      "ethAddress": "0xb39902902e7626a49adfa726e470a49c4de2506d",
-      "tokens": [
-        "@305",
-        "@107"
-      ],
-      "tokenVolume": [
-        {
-          "coin": "@305",
-          "estimatedVolume": 16913.62257103867
-        },
-        {
-          "coin": "@107",
-          "estimatedVolume": 14072.84304
         }
       ],
       "favoriteToken": "@305"
@@ -21296,7 +21488,7 @@
       "tokenVolume": [
         {
           "coin": "BTC",
-          "estimatedVolume": 1252378.25
+          "estimatedVolume": 2014298.25
         }
       ],
       "favoriteToken": "BTC"
@@ -21332,7 +21524,7 @@
       "tokenVolume": [
         {
           "coin": "XPL",
-          "estimatedVolume": 3833403.5182448057
+          "estimatedVolume": 3809249.523230805
         },
         {
           "coin": "BTC",
@@ -21352,7 +21544,7 @@
         },
         {
           "coin": "VVV",
-          "estimatedVolume": 1365037.4798207483
+          "estimatedVolume": 1356443.9814107488
         },
         {
           "coin": "LDO",
@@ -22090,55 +22282,55 @@
       "tokenVolume": [
         {
           "coin": "AAVE",
-          "estimatedVolume": 8284479.764770019
+          "estimatedVolume": 8389377.54347002
         },
         {
           "coin": "ZEC",
-          "estimatedVolume": 1789997.1624999994
+          "estimatedVolume": 1832328.7641999994
         },
         {
           "coin": "xyz:CL",
-          "estimatedVolume": 1639521.6812950012
+          "estimatedVolume": 1647646.5590560012
         },
         {
           "coin": "xyz:CRCL",
-          "estimatedVolume": 1405786.373230001
+          "estimatedVolume": 1498746.175630001
         },
         {
           "coin": "xyz:PLATINUM",
-          "estimatedVolume": 1185576.0583499994
+          "estimatedVolume": 1228112.601299999
         },
         {
           "coin": "xyz:HOOD",
-          "estimatedVolume": 911910.5462730052
+          "estimatedVolume": 921827.2369050052
         },
         {
           "coin": "xyz:COIN",
-          "estimatedVolume": 889356.16709
+          "estimatedVolume": 892592.2296200001
         },
         {
           "coin": "XMR",
-          "estimatedVolume": 881494.2438399994
+          "estimatedVolume": 886322.8308999995
         },
         {
           "coin": "xyz:BRENTOIL",
-          "estimatedVolume": 861686.4910400052
+          "estimatedVolume": 871388.0873000053
         },
         {
           "coin": "xyz:MSTR",
-          "estimatedVolume": 711538.1545200004
+          "estimatedVolume": 721911.5941300004
         },
         {
           "coin": "LIT",
-          "estimatedVolume": 636190.3250299534
+          "estimatedVolume": 638004.3051399534
         },
         {
           "coin": "xyz:TSLA",
-          "estimatedVolume": 512574.18406000035
+          "estimatedVolume": 517094.1900500003
         },
         {
           "coin": "FARTCOIN",
-          "estimatedVolume": 468273.6554692767
+          "estimatedVolume": 473058.1509022767
         },
         {
           "coin": "XPL",
@@ -22146,11 +22338,11 @@
         },
         {
           "coin": "xyz:NATGAS",
-          "estimatedVolume": 235616.47317995396
+          "estimatedVolume": 239614.83152995395
         },
         {
           "coin": "DOGE",
-          "estimatedVolume": 185512.33109401888
+          "estimatedVolume": 189233.45131201888
         },
         {
           "coin": "xyz:PLTR",
@@ -22162,7 +22354,7 @@
         },
         {
           "coin": "SUI",
-          "estimatedVolume": 99878.16856800538
+          "estimatedVolume": 99888.20782800538
         },
         {
           "coin": "xyz:GOLD",
@@ -22282,7 +22474,7 @@
         },
         {
           "coin": "xyz:BRENTOIL",
-          "estimatedVolume": 2074070.8126700162
+          "estimatedVolume": 1988882.7309700167
         },
         {
           "coin": "xyz:SILVER",
@@ -22315,6 +22507,19 @@
         }
       ],
       "favoriteToken": "ETH"
+    },
+    {
+      "ethAddress": "0xc48d912c6596a0138e058323fd9929209a66cfd8",
+      "tokens": [
+        "BTC"
+      ],
+      "tokenVolume": [
+        {
+          "coin": "BTC",
+          "estimatedVolume": 323088.37812
+        }
+      ],
+      "favoriteToken": "BTC"
     },
     {
       "ethAddress": "0xc49cb6041c811017a63a2665dd3a4ff2a58cc109",
@@ -22471,7 +22676,7 @@
       "tokenVolume": [
         {
           "coin": "BTC",
-          "estimatedVolume": 925600.6709799985
+          "estimatedVolume": 926362.2309799986
         },
         {
           "coin": "xyz:COPPER",
@@ -22555,7 +22760,7 @@
         },
         {
           "coin": "xyz:MSFT",
-          "estimatedVolume": 65662.07207999995
+          "estimatedVolume": 65720.47307999995
         },
         {
           "coin": "xyz:NFLX",
@@ -22646,49 +22851,6 @@
         }
       ],
       "favoriteToken": "xyz:GOLD"
-    },
-    {
-      "ethAddress": "0xc92f1da3181b999feceb179dccbfe4d0bf5291e1",
-      "tokens": [
-        "xyz:CL",
-        "xyz:SP500",
-        "xyz:GOOGL",
-        "vntl:ANTHROPIC",
-        "xyz:GOLD",
-        "xyz:NATGAS",
-        "vntl:OPENAI"
-      ],
-      "tokenVolume": [
-        {
-          "coin": "xyz:CL",
-          "estimatedVolume": 442895.96539199277
-        },
-        {
-          "coin": "xyz:SP500",
-          "estimatedVolume": 302589.0388
-        },
-        {
-          "coin": "xyz:GOOGL",
-          "estimatedVolume": 153012.5077599968
-        },
-        {
-          "coin": "vntl:ANTHROPIC",
-          "estimatedVolume": 135701.8995699999
-        },
-        {
-          "coin": "xyz:GOLD",
-          "estimatedVolume": 52034.833399999996
-        },
-        {
-          "coin": "xyz:NATGAS",
-          "estimatedVolume": 29569.55395
-        },
-        {
-          "coin": "vntl:OPENAI",
-          "estimatedVolume": 18983.325000000004
-        }
-      ],
-      "favoriteToken": "xyz:CL"
     },
     {
       "ethAddress": "0xca5773a9258dd2046b17721b50d8b6a08ffe1b35",
@@ -22851,7 +23013,7 @@
         },
         {
           "coin": "xyz:BRENTOIL",
-          "estimatedVolume": 1616649.1657900282
+          "estimatedVolume": 1580289.6542900281
         },
         {
           "coin": "xyz:TSLA",
@@ -23587,44 +23749,6 @@
       "favoriteToken": "BTC"
     },
     {
-      "ethAddress": "0xd50cb03fa9823350b031f01cff88bf8f0b753aef",
-      "tokens": [
-        "xyz:BRENTOIL",
-        "xyz:CL",
-        "flx:OIL",
-        "xyz:NATGAS",
-        "xyz:COPPER",
-        "@230"
-      ],
-      "tokenVolume": [
-        {
-          "coin": "xyz:BRENTOIL",
-          "estimatedVolume": 6291993.573329933
-        },
-        {
-          "coin": "xyz:CL",
-          "estimatedVolume": 3153294.5542130033
-        },
-        {
-          "coin": "flx:OIL",
-          "estimatedVolume": 2521047.569856013
-        },
-        {
-          "coin": "xyz:NATGAS",
-          "estimatedVolume": 127642.17661013732
-        },
-        {
-          "coin": "xyz:COPPER",
-          "estimatedVolume": 80824.2529096608
-        },
-        {
-          "coin": "@230",
-          "estimatedVolume": 40004.54277849499
-        }
-      ],
-      "favoriteToken": "xyz:BRENTOIL"
-    },
-    {
       "ethAddress": "0xd586c8c96b7e081cc8012b063dee55b2eeeef3a4",
       "tokens": [
         "xyz:CL",
@@ -23795,7 +23919,7 @@
       "tokenVolume": [
         {
           "coin": "BTC",
-          "estimatedVolume": 224760076.53735015
+          "estimatedVolume": 225017612.75997013
         },
         {
           "coin": "cash:META",
@@ -23836,7 +23960,7 @@
       "tokenVolume": [
         {
           "coin": "BTC",
-          "estimatedVolume": 14366963.877100002
+          "estimatedVolume": 14621783.975620002
         }
       ],
       "favoriteToken": "BTC"
@@ -24098,8 +24222,8 @@
         "BTC",
         "xyz:GOLD",
         "xyz:PLATINUM",
-        "TAO",
         "ETH",
+        "TAO",
         "xyz:CL",
         "xyz:SNDK",
         "xyz:SILVER",
@@ -24122,12 +24246,12 @@
           "estimatedVolume": 1058986.0350099984
         },
         {
-          "coin": "TAO",
-          "estimatedVolume": 831810.5049000134
+          "coin": "ETH",
+          "estimatedVolume": 968058.3655700001
         },
         {
-          "coin": "ETH",
-          "estimatedVolume": 781869.8655700001
+          "coin": "TAO",
+          "estimatedVolume": 831810.5049000134
         },
         {
           "coin": "xyz:CL",
@@ -24462,59 +24586,79 @@
       "favoriteToken": "xyz:CL"
     },
     {
-      "ethAddress": "0xe2a319d34b9e50216ca92170f9351cece91a5618",
+      "ethAddress": "0xe28239371b3b39a557a36ee16a67066ca3d6385d",
       "tokens": [
         "BTC",
-        "xyz:GOLD",
+        "ETH",
+        "BNB",
+        "TAO",
+        "BCH",
+        "HYPE",
+        "DOGE",
+        "TRUMP",
+        "FARTCOIN",
         "xyz:CL",
-        "xyz:SP500",
-        "xyz:SILVER",
-        "xyz:NATGAS",
+        "@156",
         "xyz:BRENTOIL",
-        "xyz:SNDK",
-        "vntl:ANTHROPIC",
-        "@230"
+        "@151",
+        "@162"
       ],
       "tokenVolume": [
         {
           "coin": "BTC",
-          "estimatedVolume": 4474884.26103
+          "estimatedVolume": 32867054.820830014
         },
         {
-          "coin": "xyz:GOLD",
-          "estimatedVolume": 3388993.50663
+          "coin": "ETH",
+          "estimatedVolume": 3236966.90191
+        },
+        {
+          "coin": "BNB",
+          "estimatedVolume": 1870838.5100000054
+        },
+        {
+          "coin": "TAO",
+          "estimatedVolume": 1668458.5527900022
+        },
+        {
+          "coin": "BCH",
+          "estimatedVolume": 1664903.4764500207
+        },
+        {
+          "coin": "HYPE",
+          "estimatedVolume": 1486284.07903058
+        },
+        {
+          "coin": "DOGE",
+          "estimatedVolume": 760875.6141853987
+        },
+        {
+          "coin": "TRUMP",
+          "estimatedVolume": 633008.944233509
+        },
+        {
+          "coin": "FARTCOIN",
+          "estimatedVolume": 434334.8954016731
         },
         {
           "coin": "xyz:CL",
-          "estimatedVolume": 505192.8300860001
+          "estimatedVolume": 369005.3459538816
         },
         {
-          "coin": "xyz:SP500",
-          "estimatedVolume": 255526.13030000002
-        },
-        {
-          "coin": "xyz:SILVER",
-          "estimatedVolume": 76494.43483
-        },
-        {
-          "coin": "xyz:NATGAS",
-          "estimatedVolume": 50110.249170049996
+          "coin": "@156",
+          "estimatedVolume": 38909.36744300653
         },
         {
           "coin": "xyz:BRENTOIL",
-          "estimatedVolume": 42490.7261
+          "estimatedVolume": 25202.410349996862
         },
         {
-          "coin": "xyz:SNDK",
-          "estimatedVolume": 37841.93921
+          "coin": "@151",
+          "estimatedVolume": 9964.823259999946
         },
         {
-          "coin": "vntl:ANTHROPIC",
-          "estimatedVolume": 14147.2860800002
-        },
-        {
-          "coin": "@230",
-          "estimatedVolume": 2500.1
+          "coin": "@162",
+          "estimatedVolume": 3951.44221585568
         }
       ],
       "favoriteToken": "BTC"
@@ -24589,7 +24733,7 @@
         },
         {
           "coin": "xyz:HIMS",
-          "estimatedVolume": 212623.07921004796
+          "estimatedVolume": 238291.19195004794
         },
         {
           "coin": "@230",
@@ -24759,6 +24903,24 @@
       "favoriteToken": "SOL"
     },
     {
+      "ethAddress": "0xe5ba37c0c2126bb170dd0646f3ece250ca6f5397",
+      "tokens": [
+        "xyz:SILVER",
+        "xyz:CRCL"
+      ],
+      "tokenVolume": [
+        {
+          "coin": "xyz:SILVER",
+          "estimatedVolume": 1075377.3761
+        },
+        {
+          "coin": "xyz:CRCL",
+          "estimatedVolume": 307347.54999999993
+        }
+      ],
+      "favoriteToken": "xyz:SILVER"
+    },
+    {
       "ethAddress": "0xe607d102a5ac974882d10cdf0ac019ac3da36fb4",
       "tokens": [
         "hyna:ETH",
@@ -24786,9 +24948,9 @@
         "xyz:NVDA",
         "xyz:META",
         "xyz:AMZN",
+        "BTC",
         "xyz:XYZ100",
         "xyz:GOLD",
-        "BTC",
         "xyz:SILVER",
         "xyz:INTC",
         "xyz:HOOD",
@@ -24827,16 +24989,16 @@
           "estimatedVolume": 68850.80234000005
         },
         {
+          "coin": "BTC",
+          "estimatedVolume": 59997.749840000004
+        },
+        {
           "coin": "xyz:XYZ100",
           "estimatedVolume": 59963.65309999999
         },
         {
           "coin": "xyz:GOLD",
           "estimatedVolume": 42776.69527
-        },
-        {
-          "coin": "BTC",
-          "estimatedVolume": 39998.47056
         },
         {
           "coin": "xyz:SILVER",
@@ -25328,7 +25490,7 @@
         },
         {
           "coin": "xyz:MSTR",
-          "estimatedVolume": 381011.72349999996
+          "estimatedVolume": 415147.72349999996
         },
         {
           "coin": "xyz:SILVER",
@@ -25631,6 +25793,34 @@
         }
       ],
       "favoriteToken": "SOL"
+    },
+    {
+      "ethAddress": "0xf205c4d48b92cc9b60ec984721c297e350eac9fa",
+      "tokens": [
+        "ZEC",
+        "BTC",
+        "AAVE",
+        "ETH"
+      ],
+      "tokenVolume": [
+        {
+          "coin": "ZEC",
+          "estimatedVolume": 5752381.259200176
+        },
+        {
+          "coin": "BTC",
+          "estimatedVolume": 4523174.410559998
+        },
+        {
+          "coin": "AAVE",
+          "estimatedVolume": 1665651.545159876
+        },
+        {
+          "coin": "ETH",
+          "estimatedVolume": 104086.0
+        }
+      ],
+      "favoriteToken": "ZEC"
     },
     {
       "ethAddress": "0xf2704e08a4d989f76171c9389665e77c870345a7",
@@ -26370,7 +26560,7 @@
       "tokenVolume": [
         {
           "coin": "BTC",
-          "estimatedVolume": 19220492.61101999
+          "estimatedVolume": 19258570.015259992
         },
         {
           "coin": "ETH",
@@ -26430,7 +26620,7 @@
         },
         {
           "coin": "xyz:SNDK",
-          "estimatedVolume": 349970.712030006
+          "estimatedVolume": 490650.17367000296
         },
         {
           "coin": "xyz:EWY",
@@ -26456,142 +26646,22 @@
       "favoriteToken": "xyz:CL"
     },
     {
-      "ethAddress": "0xfbf4b6bfbe15db2ee1a6a22755808896e8d986a3",
+      "ethAddress": "0xfabee32ab2c189c2ff20ac2a83cfd820de7b1d6d",
       "tokens": [
-        "BTC",
-        "ETH",
-        "SOL",
         "xyz:CL",
-        "xyz:SP500",
-        "HYPE",
-        "xyz:NVDA",
-        "LIT",
-        "kPEPE",
-        "xyz:GOLD",
-        "xyz:PLTR",
-        "xyz:XYZ100",
-        "MON",
-        "TAO",
-        "XPL",
-        "PUMP",
-        "xyz:BRENTOIL",
-        "xyz:CRWV",
-        "JUP",
-        "AAVE",
-        "LDO",
-        "xyz:TSLA",
-        "BIO",
-        "@151",
-        "ENA",
-        "DASH"
+        "xyz:BRENTOIL"
       ],
       "tokenVolume": [
         {
-          "coin": "BTC",
-          "estimatedVolume": 31101085.819609974
-        },
-        {
-          "coin": "ETH",
-          "estimatedVolume": 8640127.068120014
-        },
-        {
-          "coin": "SOL",
-          "estimatedVolume": 5419191.48387989
-        },
-        {
           "coin": "xyz:CL",
-          "estimatedVolume": 3097589.16363597
-        },
-        {
-          "coin": "xyz:SP500",
-          "estimatedVolume": 2805080.9253999954
-        },
-        {
-          "coin": "HYPE",
-          "estimatedVolume": 1737114.7935794636
-        },
-        {
-          "coin": "xyz:NVDA",
-          "estimatedVolume": 953931.7796699678
-        },
-        {
-          "coin": "LIT",
-          "estimatedVolume": 885656.3156140463
-        },
-        {
-          "coin": "kPEPE",
-          "estimatedVolume": 777531.7510548608
-        },
-        {
-          "coin": "xyz:GOLD",
-          "estimatedVolume": 712255.8948500024
-        },
-        {
-          "coin": "xyz:PLTR",
-          "estimatedVolume": 643767.4131300099
-        },
-        {
-          "coin": "xyz:XYZ100",
-          "estimatedVolume": 466801.5613
-        },
-        {
-          "coin": "MON",
-          "estimatedVolume": 457258.8151838532
-        },
-        {
-          "coin": "TAO",
-          "estimatedVolume": 452178.03871998406
-        },
-        {
-          "coin": "XPL",
-          "estimatedVolume": 433053.9742816109
-        },
-        {
-          "coin": "PUMP",
-          "estimatedVolume": 406830.17367468844
+          "estimatedVolume": 4560459.145586936
         },
         {
           "coin": "xyz:BRENTOIL",
-          "estimatedVolume": 292666.194700004
-        },
-        {
-          "coin": "xyz:CRWV",
-          "estimatedVolume": 183836.7130900227
-        },
-        {
-          "coin": "JUP",
-          "estimatedVolume": 177626.7328369976
-        },
-        {
-          "coin": "AAVE",
-          "estimatedVolume": 175915.70961997585
-        },
-        {
-          "coin": "LDO",
-          "estimatedVolume": 134592.00447452348
-        },
-        {
-          "coin": "xyz:TSLA",
-          "estimatedVolume": 110047.34198999769
-        },
-        {
-          "coin": "BIO",
-          "estimatedVolume": 89030.08777022151
-        },
-        {
-          "coin": "@151",
-          "estimatedVolume": 28870.930559999997
-        },
-        {
-          "coin": "ENA",
-          "estimatedVolume": 26827.239823200696
-        },
-        {
-          "coin": "DASH",
-          "estimatedVolume": 5575.2497299999995
+          "estimatedVolume": 674918.1452599742
         }
       ],
-      "favoriteToken": "BTC"
+      "favoriteToken": "xyz:CL"
     },
     {
       "ethAddress": "0xfc19cc14a007c7a6dbf3d9e3e7480c7394934eda",
@@ -26620,7 +26690,7 @@
         },
         {
           "coin": "BTC",
-          "estimatedVolume": 3508934.4058100013
+          "estimatedVolume": 3528933.949140001
         },
         {
           "coin": "xyz:CL",
@@ -26723,7 +26793,7 @@
       "tokenVolume": [
         {
           "coin": "xyz:CL",
-          "estimatedVolume": 32141937.465978503
+          "estimatedVolume": 32272533.0973365
         },
         {
           "coin": "xyz:BRENTOIL",
