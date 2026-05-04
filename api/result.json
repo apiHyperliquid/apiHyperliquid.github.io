@@ -5,49 +5,19 @@
   "event_topic0": "0x062ad660dc3a81d13bf6723b58905d872e600e13af94e3f31109b14d57ab129b",
   "window": {
     "hours": 24.0,
-    "start_timestamp": 1777829962,
-    "end_timestamp": 1777916362,
-    "start_iso_utc": "2026-05-03T17:39:22+00:00",
-    "end_iso_utc": "2026-05-04T17:39:22+00:00",
-    "start_block_estimate": 459022669,
-    "latest_block": 459366897
+    "start_timestamp": 1777833563,
+    "end_timestamp": 1777919963,
+    "start_iso_utc": "2026-05-03T18:39:23+00:00",
+    "end_iso_utc": "2026-05-04T18:39:23+00:00",
+    "start_block_estimate": 459036831,
+    "latest_block": 459381299
   },
   "summary": {
-    "total_deposited_usdc": "390819.56",
-    "deposit_event_count": 15
+    "total_deposited_usdc": "140858.34",
+    "deposit_event_count": 14
   },
-  "wallets_deposited_more_than_100k_usdc": [
-    {
-      "wallet": "0xe0e1b3f7cb3fc82ade5871085a9ec46c4f7f77c6",
-      "total_deposited_usdc": "249961.22",
-      "deposit_count": 1,
-      "transactions": [
-        {
-          "tx_hash": "0x30dfb4b4128d1c88969efe7a7fe085be2b535fe4226449c9a2ffb958e1419c13",
-          "amount_usdc": "249961.22",
-          "batch_count": 1,
-          "block_number": 459032017,
-          "timestamp": "2026-05-03T18:18:56+00:00",
-          "destination_domain": 19,
-          "mint_recipient": "0x000000000000000000000000b21d281dedb17ae5b501f6aa8256fe38c4e45757"
-        }
-      ]
-    }
-  ],
+  "wallets_deposited_more_than_100k_usdc": [],
   "events": [
-    {
-      "tx_hash": "0x30dfb4b4128d1c88969efe7a7fe085be2b535fe4226449c9a2ffb958e1419c13",
-      "log_index": 8,
-      "block_number": 459032017,
-      "timestamp": 1777832336,
-      "timestamp_iso_utc": "2026-05-03T18:18:56+00:00",
-      "batch_count": 1,
-      "batch_size_raw": 249961220000,
-      "batch_size_usdc": "249961.22",
-      "depositor": "0xe0e1b3f7cb3fc82ade5871085a9ec46c4f7f77c6",
-      "mint_recipient": "0x000000000000000000000000b21d281dedb17ae5b501f6aa8256fe38c4e45757",
-      "destination_domain": 19
-    },
     {
       "tx_hash": "0x1db91bfa77e36279e4af76e98a9dcbd1779beb800a6934eba80680b5c3280ef9",
       "log_index": 17,
