@@ -1589,8 +1589,8 @@
       "tokens": [
         "BTC",
         "ETH",
-        "xyz:SILVER",
         "xyz:GOLD",
+        "xyz:SILVER",
         "AVAX",
         "POL",
         "xyz:MSTR",
@@ -1606,12 +1606,12 @@
           "estimatedVolume": 25787628.298790004
         },
         {
-          "coin": "xyz:SILVER",
-          "estimatedVolume": 11834189.80028073
+          "coin": "xyz:GOLD",
+          "estimatedVolume": 12543241.456000037
         },
         {
-          "coin": "xyz:GOLD",
-          "estimatedVolume": 11580080.289750038
+          "coin": "xyz:SILVER",
+          "estimatedVolume": 11834189.80028073
         },
         {
           "coin": "AVAX",
@@ -1641,18 +1641,18 @@
         "xyz:CBRS",
         "xyz:MU",
         "xyz:HIMS",
+        "vntl:ANTHROPIC",
         "HYPE",
         "xyz:SNDK",
+        "@230",
         "@156",
         "LIT",
         "DASH",
         "xyz:SMSN",
-        "@230",
         "km:SMALL2000",
         "@254",
         "xyz:INTC",
         "APE",
-        "vntl:ANTHROPIC",
         "#0",
         "TRUMP",
         "xyz:URNM",
@@ -1695,11 +1695,15 @@
         },
         {
           "coin": "xyz:MU",
-          "estimatedVolume": 465884.16878999566
+          "estimatedVolume": 562301.325629997
         },
         {
           "coin": "xyz:HIMS",
           "estimatedVolume": 335010.7467599902
+        },
+        {
+          "coin": "vntl:ANTHROPIC",
+          "estimatedVolume": 57546.06744999936
         },
         {
           "coin": "HYPE",
@@ -1708,6 +1712,10 @@
         {
           "coin": "xyz:SNDK",
           "estimatedVolume": 36811.22868000001
+        },
+        {
+          "coin": "@230",
+          "estimatedVolume": 33007.1052073
         },
         {
           "coin": "@156",
@@ -1726,10 +1734,6 @@
           "estimatedVolume": 13048.007520000067
         },
         {
-          "coin": "@230",
-          "estimatedVolume": 12501.844886300003
-        },
-        {
           "coin": "km:SMALL2000",
           "estimatedVolume": 12251.982240000005
         },
@@ -1744,10 +1748,6 @@
         {
           "coin": "APE",
           "estimatedVolume": 5200.952416880478
-        },
-        {
-          "coin": "vntl:ANTHROPIC",
-          "estimatedVolume": 4822.424310000013
         },
         {
           "coin": "#0",
@@ -1871,9 +1871,10 @@
         "TRB",
         "GRIFFAIN",
         "STX",
+        "DYM",
+        "AR",
         "USTC",
         "ONDO",
-        "AR",
         "WLFI",
         "MERL",
         "SPX",
@@ -1907,7 +1908,6 @@
         "ACE",
         "TRX",
         "MINA",
-        "DYM",
         "COMP",
         "PEOPLE",
         "PNUT",
@@ -2063,16 +2063,20 @@
           "estimatedVolume": 75587.69689211652
         },
         {
+          "coin": "DYM",
+          "estimatedVolume": 72432.38641867896
+        },
+        {
+          "coin": "AR",
+          "estimatedVolume": 70776.58385498311
+        },
+        {
           "coin": "USTC",
           "estimatedVolume": 68024.69686805748
         },
         {
           "coin": "ONDO",
           "estimatedVolume": 66288.07504073641
-        },
-        {
-          "coin": "AR",
-          "estimatedVolume": 61188.70323299752
         },
         {
           "coin": "WLFI",
@@ -2205,10 +2209,6 @@
         {
           "coin": "MINA",
           "estimatedVolume": 12903.308471290398
-        },
-        {
-          "coin": "DYM",
-          "estimatedVolume": 12402.97291428827
         },
         {
           "coin": "COMP",
