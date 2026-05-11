@@ -1,6 +1,6 @@
 {
   "title": "Wallet Preferred Tokens",
-  "total_wallets": 22,
+  "total_wallets": 20,
   "wallets": [
     {
       "ethAddress": "0x0b8ad91cb7fb0ae5c74661c926068a36f21f5192",
@@ -272,44 +272,6 @@
       "favoriteToken": "ZEC"
     },
     {
-      "ethAddress": "0x31fe86dadaf5fe01b3a411770338e09ef49553ba",
-      "tokens": [
-        "xyz:CL",
-        "xyz:XYZ100",
-        "xyz:SP500",
-        "@230",
-        "xyz:INTC",
-        "@294"
-      ],
-      "tokenVolume": [
-        {
-          "coin": "xyz:CL",
-          "estimatedVolume": 60001.82359400725
-        },
-        {
-          "coin": "xyz:XYZ100",
-          "estimatedVolume": 59998.08549999997
-        },
-        {
-          "coin": "xyz:SP500",
-          "estimatedVolume": 59995.455000000205
-        },
-        {
-          "coin": "@230",
-          "estimatedVolume": 50000.079507999995
-        },
-        {
-          "coin": "xyz:INTC",
-          "estimatedVolume": 6007.537889999499
-        },
-        {
-          "coin": "@294",
-          "estimatedVolume": 117.85296339
-        }
-      ],
-      "favoriteToken": "xyz:CL"
-    },
-    {
       "ethAddress": "0x4df63e746b71d3a8e151751a9594c8f06b7b7695",
       "tokens": [
         "xyz:BRENTOIL"
@@ -381,11 +343,11 @@
         "ZEC",
         "xyz:HIMS",
         "STRK",
+        "SUI",
         "vntl:SEMIS",
         "xyz:SNDK",
         "xyz:CRCL",
         "ONDO",
-        "SUI",
         "UNI",
         "@230",
         "VVV",
@@ -415,6 +377,10 @@
           "estimatedVolume": 33579.026680455405
         },
         {
+          "coin": "SUI",
+          "estimatedVolume": 33004.848939604955
+        },
+        {
           "coin": "vntl:SEMIS",
           "estimatedVolume": 31151.925659999582
         },
@@ -429,10 +395,6 @@
         {
           "coin": "ONDO",
           "estimatedVolume": 14009.066430382001
-        },
-        {
-          "coin": "SUI",
-          "estimatedVolume": 13019.596699999998
         },
         {
           "coin": "UNI",
@@ -462,93 +424,10 @@
       "favoriteToken": "xyz:LITE"
     },
     {
-      "ethAddress": "0x7b51c5d9366077e1b3c1cba383389752f486071b",
-      "tokens": [
-        "xyz:SNDK",
-        "xyz:NVDA",
-        "xyz:GOOGL",
-        "xyz:HIMS",
-        "xyz:META",
-        "xyz:AMZN",
-        "xyz:SKHX",
-        "xyz:CBRS",
-        "xyz:CRCL",
-        "xyz:ORCL",
-        "@107",
-        "xyz:RKLB",
-        "xyz:AAPL",
-        "vntl:ANTHROPIC",
-        "@230"
-      ],
-      "tokenVolume": [
-        {
-          "coin": "xyz:SNDK",
-          "estimatedVolume": 1043807.036439998
-        },
-        {
-          "coin": "xyz:NVDA",
-          "estimatedVolume": 964762.2184099985
-        },
-        {
-          "coin": "xyz:GOOGL",
-          "estimatedVolume": 426295.17673000303
-        },
-        {
-          "coin": "xyz:HIMS",
-          "estimatedVolume": 396809.3456900105
-        },
-        {
-          "coin": "xyz:META",
-          "estimatedVolume": 372097.3892600001
-        },
-        {
-          "coin": "xyz:AMZN",
-          "estimatedVolume": 252795.37983000002
-        },
-        {
-          "coin": "xyz:SKHX",
-          "estimatedVolume": 231602.90349999687
-        },
-        {
-          "coin": "xyz:CBRS",
-          "estimatedVolume": 209276.97930000437
-        },
-        {
-          "coin": "xyz:CRCL",
-          "estimatedVolume": 175913.11936399696
-        },
-        {
-          "coin": "xyz:ORCL",
-          "estimatedVolume": 143941.77612999556
-        },
-        {
-          "coin": "@107",
-          "estimatedVolume": 69935.36042998848
-        },
-        {
-          "coin": "xyz:RKLB",
-          "estimatedVolume": 65353.57316996883
-        },
-        {
-          "coin": "xyz:AAPL",
-          "estimatedVolume": 48062.53904000059
-        },
-        {
-          "coin": "vntl:ANTHROPIC",
-          "estimatedVolume": 16845.991199999997
-        },
-        {
-          "coin": "@230",
-          "estimatedVolume": 5616.921636
-        }
-      ],
-      "favoriteToken": "xyz:SNDK"
-    },
-    {
       "ethAddress": "0x7e6cd877e9670126d15923be4b13e2228b18ca85",
       "tokens": [
-        "xyz:AAPL",
         "cash:INTC",
+        "xyz:AAPL",
         "TON",
         "WLFI",
         "FARTCOIN",
@@ -560,12 +439,12 @@
       ],
       "tokenVolume": [
         {
-          "coin": "xyz:AAPL",
-          "estimatedVolume": 167577.94913999134
+          "coin": "cash:INTC",
+          "estimatedVolume": 278805.6679299498
         },
         {
-          "coin": "cash:INTC",
-          "estimatedVolume": 139344.46289999524
+          "coin": "xyz:AAPL",
+          "estimatedVolume": 167577.94913999134
         },
         {
           "coin": "TON",
@@ -600,7 +479,7 @@
           "estimatedVolume": 2676.127900000003
         }
       ],
-      "favoriteToken": "xyz:AAPL"
+      "favoriteToken": "cash:INTC"
     },
     {
       "ethAddress": "0x810cc4084a961173963e5fec9249203abaf31de1",
@@ -936,11 +815,11 @@
       "tokenVolume": [
         {
           "coin": "xyz:SKHX",
-          "estimatedVolume": 5569045.270710012
+          "estimatedVolume": 5626453.591010008
         },
         {
           "coin": "xyz:EWY",
-          "estimatedVolume": 2880002.4727900326
+          "estimatedVolume": 2899615.0048900326
         },
         {
           "coin": "xyz:CL",
