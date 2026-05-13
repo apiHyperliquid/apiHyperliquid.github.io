@@ -5,16 +5,16 @@
   "event_topic0": "0x062ad660dc3a81d13bf6723b58905d872e600e13af94e3f31109b14d57ab129b",
   "window": {
     "hours": 24.0,
-    "start_timestamp": 1778563489,
-    "end_timestamp": 1778649889,
-    "start_iso_utc": "2026-05-12T05:24:49+00:00",
-    "end_iso_utc": "2026-05-13T05:24:49+00:00",
-    "start_block_estimate": 461947646,
-    "latest_block": 462292276
+    "start_timestamp": 1778566489,
+    "end_timestamp": 1778652889,
+    "start_iso_utc": "2026-05-12T06:14:49+00:00",
+    "end_iso_utc": "2026-05-13T06:14:49+00:00",
+    "start_block_estimate": 461959584,
+    "latest_block": 462304222
   },
   "summary": {
-    "total_deposited_usdc": "351661.99",
-    "deposit_event_count": 18
+    "total_deposited_usdc": "341626.95",
+    "deposit_event_count": 16
   },
   "wallets_deposited_more_than_100k_usdc": [
     {
@@ -35,32 +35,6 @@
     }
   ],
   "events": [
-    {
-      "tx_hash": "0xd6e22ac15e6a1f3f63e577b9ff495a244f4a9366e99582bccc31970deb2bf187",
-      "log_index": 7,
-      "block_number": 461957868,
-      "timestamp": 1778566057,
-      "timestamp_iso_utc": "2026-05-12T06:07:37+00:00",
-      "batch_count": 1,
-      "batch_size_raw": 29940000,
-      "batch_size_usdc": "29.94",
-      "depositor": "0x4aa3bc15dc178ec08a8c467af6fb956802e3756c",
-      "mint_recipient": "0x000000000000000000000000b21d281dedb17ae5b501f6aa8256fe38c4e45757",
-      "destination_domain": 19
-    },
-    {
-      "tx_hash": "0x74a83f49f156c599c50d79f43fe0072be11acafe698d41e5738dff740ddc0188",
-      "log_index": 7,
-      "block_number": 461958201,
-      "timestamp": 1778566140,
-      "timestamp_iso_utc": "2026-05-12T06:09:00+00:00",
-      "batch_count": 1,
-      "batch_size_raw": 10005100000,
-      "batch_size_usdc": "10005.1",
-      "depositor": "0xa20f17ceac15aee41daeb60b84bc4226a518a2ac",
-      "mint_recipient": "0x000000000000000000000000b21d281dedb17ae5b501f6aa8256fe38c4e45757",
-      "destination_domain": 19
-    },
     {
       "tx_hash": "0xaeb45560e3d0222d1134476848d3b8b4efadb8433ab750d09dd6a8bb8ae4a9f0",
       "log_index": 8,
