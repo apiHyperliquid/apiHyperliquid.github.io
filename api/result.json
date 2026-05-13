@@ -5,15 +5,15 @@
   "event_topic0": "0x062ad660dc3a81d13bf6723b58905d872e600e13af94e3f31109b14d57ab129b",
   "window": {
     "hours": 24.0,
-    "start_timestamp": 1778585092,
-    "end_timestamp": 1778671492,
-    "start_iso_utc": "2026-05-12T11:24:52+00:00",
-    "end_iso_utc": "2026-05-13T11:24:52+00:00",
-    "start_block_estimate": 462034016,
-    "latest_block": 462378814
+    "start_timestamp": 1778588093,
+    "end_timestamp": 1778674493,
+    "start_iso_utc": "2026-05-12T12:14:53+00:00",
+    "end_iso_utc": "2026-05-13T12:14:53+00:00",
+    "start_block_estimate": 462045992,
+    "latest_block": 462390823
   },
   "summary": {
-    "total_deposited_usdc": "1643884.78",
+    "total_deposited_usdc": "1644099.37",
     "deposit_event_count": 18
   },
   "wallets_deposited_more_than_100k_usdc": [
@@ -53,19 +53,6 @@
     }
   ],
   "events": [
-    {
-      "tx_hash": "0x953d3ad5910900a82ee6c86fe3bd49dc68b90a4b0f231c30ce33ac8b31953be9",
-      "log_index": 16,
-      "block_number": 462038040,
-      "timestamp": 1778586097,
-      "timestamp_iso_utc": "2026-05-12T11:41:37+00:00",
-      "batch_count": 1,
-      "batch_size_raw": 100000000,
-      "batch_size_usdc": "100",
-      "depositor": "0xaac075075d889aea4c87ad82eb0818eeaf706673",
-      "mint_recipient": "0x000000000000000000000000b21d281dedb17ae5b501f6aa8256fe38c4e45757",
-      "destination_domain": 19
-    },
     {
       "tx_hash": "0x61ee289bfd170a4f27f3b524c9d83ca149812696cb0d9220d223aa51723d94c2",
       "log_index": 12,
@@ -284,6 +271,19 @@
       "batch_size_raw": 1499000000000,
       "batch_size_usdc": "1499000",
       "depositor": "0x484bc1608211d0604bf70bae72792a56884562f8",
+      "mint_recipient": "0x000000000000000000000000b21d281dedb17ae5b501f6aa8256fe38c4e45757",
+      "destination_domain": 19
+    },
+    {
+      "tx_hash": "0xf3eda1e28f32dbcb27edde9625c2d67085220576be49b12b081f75ddf83cf27b",
+      "log_index": 125,
+      "block_number": 462386716,
+      "timestamp": 1778673468,
+      "timestamp_iso_utc": "2026-05-13T11:57:48+00:00",
+      "batch_count": 1,
+      "batch_size_raw": 314590000,
+      "batch_size_usdc": "314.59",
+      "depositor": "0x002fbf1598dee8729f667d7aafb62cde8a102303",
       "mint_recipient": "0x000000000000000000000000b21d281dedb17ae5b501f6aa8256fe38c4e45757",
       "destination_domain": 19
     }
