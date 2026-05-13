@@ -5,16 +5,16 @@
   "event_topic0": "0x062ad660dc3a81d13bf6723b58905d872e600e13af94e3f31109b14d57ab129b",
   "window": {
     "hours": 24.0,
-    "start_timestamp": 1778609697,
-    "end_timestamp": 1778696097,
-    "start_iso_utc": "2026-05-12T18:14:57+00:00",
-    "end_iso_utc": "2026-05-13T18:14:57+00:00",
-    "start_block_estimate": 462132424,
-    "latest_block": 462477266
+    "start_timestamp": 1778613298,
+    "end_timestamp": 1778699698,
+    "start_iso_utc": "2026-05-12T19:14:58+00:00",
+    "end_iso_utc": "2026-05-13T19:14:58+00:00",
+    "start_block_estimate": 462146811,
+    "latest_block": 462491617
   },
   "summary": {
-    "total_deposited_usdc": "1570468.07",
-    "deposit_event_count": 19
+    "total_deposited_usdc": "1612723.94",
+    "deposit_event_count": 20
   },
   "wallets_deposited_more_than_100k_usdc": [
     {
@@ -53,19 +53,6 @@
     }
   ],
   "events": [
-    {
-      "tx_hash": "0xcc24f244f854d11f5512c8a38cd2c169c92de4d3ef4d96f7da5dbec1f1478420",
-      "log_index": 37,
-      "block_number": 462141182,
-      "timestamp": 1778611889,
-      "timestamp_iso_utc": "2026-05-12T18:51:29+00:00",
-      "batch_count": 1,
-      "batch_size_raw": 499920000,
-      "batch_size_usdc": "499.92",
-      "depositor": "0x6b7c5c48e99ec0adc81f2eac1497dc8a7a18967d",
-      "mint_recipient": "0x000000000000000000000000b21d281dedb17ae5b501f6aa8256fe38c4e45757",
-      "destination_domain": 19
-    },
     {
       "tx_hash": "0x79c2dd4653e8d4d6a0e00d749fefacd70f187a30d876fb032291d0d7db8e5bfa",
       "log_index": 9,
@@ -297,6 +284,32 @@
       "batch_size_raw": 997840000,
       "batch_size_usdc": "997.84",
       "depositor": "0x9f6ad9505b893b75c2e4ba3fb3be31700af7b44a",
+      "mint_recipient": "0x000000000000000000000000b21d281dedb17ae5b501f6aa8256fe38c4e45757",
+      "destination_domain": 19
+    },
+    {
+      "tx_hash": "0x0733769853d24c674bc8a00394a66797072bc15c89b16a67aef049afd12c9f63",
+      "log_index": 30,
+      "block_number": 462489208,
+      "timestamp": 1778699095,
+      "timestamp_iso_utc": "2026-05-13T19:04:55+00:00",
+      "batch_count": 1,
+      "batch_size_raw": 39999990000,
+      "batch_size_usdc": "39999.99",
+      "depositor": "0xe6781c6a6eda7821a2c17832e2e5edd8fa25c7ea",
+      "mint_recipient": "0x000000000000000000000000b21d281dedb17ae5b501f6aa8256fe38c4e45757",
+      "destination_domain": 19
+    },
+    {
+      "tx_hash": "0x44a5173e044c61ed83224dfa5579c9897e9b807df021205e495ae402216e7357",
+      "log_index": 7,
+      "block_number": 462489663,
+      "timestamp": 1778699209,
+      "timestamp_iso_utc": "2026-05-13T19:06:49+00:00",
+      "batch_count": 1,
+      "batch_size_raw": 2755800000,
+      "batch_size_usdc": "2755.8",
+      "depositor": "0x2443e35c2c9f469c40861b260e7bf4c15ca3b364",
       "mint_recipient": "0x000000000000000000000000b21d281dedb17ae5b501f6aa8256fe38c4e45757",
       "destination_domain": 19
     }
