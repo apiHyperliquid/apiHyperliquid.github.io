@@ -5,16 +5,16 @@
   "event_topic0": "0x062ad660dc3a81d13bf6723b58905d872e600e13af94e3f31109b14d57ab129b",
   "window": {
     "hours": 24.0,
-    "start_timestamp": 1778944781,
-    "end_timestamp": 1779031181,
-    "start_iso_utc": "2026-05-16T15:19:41+00:00",
-    "end_iso_utc": "2026-05-17T15:19:41+00:00",
-    "start_block_estimate": 463470421,
-    "latest_block": 463812414
+    "start_timestamp": 1778948382,
+    "end_timestamp": 1779034782,
+    "start_iso_utc": "2026-05-16T16:19:42+00:00",
+    "end_iso_utc": "2026-05-17T16:19:42+00:00",
+    "start_block_estimate": 463484755,
+    "latest_block": 463826764
   },
   "summary": {
-    "total_deposited_usdc": "86863.25",
-    "deposit_event_count": 12
+    "total_deposited_usdc": "101863.25",
+    "deposit_event_count": 14
   },
   "wallets_deposited_more_than_100k_usdc": [],
   "events": [
@@ -171,6 +171,32 @@
       "batch_size_raw": 50020000,
       "batch_size_usdc": "50.02",
       "depositor": "0xaa8a5737b4c6fb5f237e45e8bb9adf70365ecbbf",
+      "mint_recipient": "0x000000000000000000000000b21d281dedb17ae5b501f6aa8256fe38c4e45757",
+      "destination_domain": 19
+    },
+    {
+      "tx_hash": "0x5dfdc22292587b91e04e80d3faee4d32fa0358db5a07ea6350784c2df35eecff",
+      "log_index": 18,
+      "block_number": 463815154,
+      "timestamp": 1779031871,
+      "timestamp_iso_utc": "2026-05-17T15:31:11+00:00",
+      "batch_count": 1,
+      "batch_size_raw": 10000000000,
+      "batch_size_usdc": "10000",
+      "depositor": "0x90b3f987518233953cca518ea8c7e0db57c9069c",
+      "mint_recipient": "0x000000000000000000000000b21d281dedb17ae5b501f6aa8256fe38c4e45757",
+      "destination_domain": 19
+    },
+    {
+      "tx_hash": "0x2a2be4f30791d5c91ddbd4219bac224e36571a1a3cabe4426a437a900aa8f190",
+      "log_index": 7,
+      "block_number": 463822809,
+      "timestamp": 1779033792,
+      "timestamp_iso_utc": "2026-05-17T16:03:12+00:00",
+      "batch_count": 1,
+      "batch_size_raw": 5000000000,
+      "batch_size_usdc": "5000",
+      "depositor": "0x93e567737f22df312ae31a2d074226a0466bda1a",
       "mint_recipient": "0x000000000000000000000000b21d281dedb17ae5b501f6aa8256fe38c4e45757",
       "destination_domain": 19
     }
