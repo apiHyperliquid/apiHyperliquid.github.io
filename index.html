@@ -12,14 +12,13 @@
     }
 
     body {
-      font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+      font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, sans-serif;
       background: linear-gradient(135deg, #0b1120 0%, #0f172a 100%);
       color: #e2e8f0;
       padding: 2rem;
       min-height: 100vh;
     }
 
-    /* subtle animated gradient background */
     body::before {
       content: '';
       position: fixed;
@@ -46,7 +45,7 @@
     }
 
     .container {
-      max-width: 880px;
+      max-width: 960px;
       margin: 0 auto;
     }
 
@@ -54,7 +53,7 @@
       background: rgba(30, 41, 59, 0.75);
       backdrop-filter: blur(8px);
       border-radius: 28px;
-      padding: 2rem 2rem 2rem 2rem;
+      padding: 2rem;
       box-shadow: 0 20px 35px -12px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.05);
       border: 1px solid rgba(71, 85, 105, 0.5);
       transition: transform 0.2s ease, box-shadow 0.2s ease;
@@ -65,18 +64,49 @@
     }
 
     .description {
-      margin-bottom: 1.8rem;
+      margin-bottom: 1.4rem;
       font-size: 0.95rem;
       color: #94a3b8;
       border-left: 3px solid #38bdf8;
       padding-left: 1rem;
+      line-height: 1.6;
+    }
+
+    .top-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: space-between;
+      align-items: center;
+      margin: 1.5rem 0 1rem;
+    }
+
+    .section-title {
+      font-size: 1rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #94a3b8;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .count-pill {
+      background: #0f212e;
+      color: #7dd3fc;
+      font-size: 0.78rem;
+      font-weight: 700;
+      padding: 0.35rem 0.75rem;
+      border-radius: 999px;
+      border: 1px solid #2c4c6e;
     }
 
     .endpoint-grid {
       display: flex;
       flex-direction: column;
       gap: 0.6rem;
-      margin: 1.5rem 0 2rem 0;
+      margin: 0 0 2rem 0;
     }
 
     .endpoint {
@@ -99,7 +129,7 @@
     .endpoint a {
       color: #7dd3fc;
       text-decoration: none;
-      font-family: 'SF Mono', 'Fira Code', monospace;
+      font-family: SFMono-Regular, Consolas, Liberation Mono, monospace;
       font-size: 0.95rem;
       font-weight: 500;
       flex: 1;
@@ -112,7 +142,12 @@
       text-underline-offset: 4px;
     }
 
-    /* badge style */
+    .meta {
+      color: #64748b;
+      font-size: 0.75rem;
+      font-family: SFMono-Regular, Consolas, Liberation Mono, monospace;
+    }
+
     .badge {
       background: #0f212e;
       color: #38bdf8;
@@ -124,10 +159,17 @@
       border: 1px solid #2c4c6e;
     }
 
-    button {
-      background: linear-gradient(95deg, #ef4444, #dc2626);
+    .button-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      margin-top: 0.5rem;
+    }
+
+    button, .button-link {
+      background: linear-gradient(95deg, #0ea5e9, #2563eb);
       border: none;
-      padding: 0.8rem 1.8rem;
+      padding: 0.8rem 1.4rem;
       border-radius: 40px;
       font-weight: 600;
       font-size: 0.9rem;
@@ -137,18 +179,26 @@
       align-items: center;
       gap: 0.6rem;
       transition: all 0.2s ease;
-      box-shadow: 0 4px 12px rgba(220, 38, 38, 0.3);
+      box-shadow: 0 4px 12px rgba(14, 165, 233, 0.25);
       border: 1px solid rgba(255, 255, 255, 0.1);
+      text-decoration: none;
     }
 
-    button:hover {
-      background: linear-gradient(95deg, #dc2626, #b91c1c);
+    button:hover, .button-link:hover {
       transform: scale(1.02);
-      box-shadow: 0 8px 20px rgba(220, 38, 38, 0.4);
+      box-shadow: 0 8px 20px rgba(14, 165, 233, 0.35);
     }
 
-    button:active {
-      transform: scale(0.98);
+    .refresh-button {
+      background: linear-gradient(95deg, #ef4444, #dc2626);
+      box-shadow: 0 4px 12px rgba(220, 38, 38, 0.3);
+    }
+
+    .hint {
+      font-size: 0.7rem;
+      margin-top: 1rem;
+      color: #5b6e8c;
+      line-height: 1.5;
     }
 
     .footer-note {
@@ -160,119 +210,158 @@
       padding-top: 1.5rem;
     }
 
-    .section-title {
-      font-size: 1rem;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 1px;
+    .status {
       color: #94a3b8;
-      margin-bottom: 0.75rem;
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
+      font-size: 0.9rem;
+      padding: 1rem;
+      border: 1px dashed #334155;
+      border-radius: 18px;
+      background: rgba(15, 23, 42, 0.6);
     }
 
     @media (max-width: 600px) {
       body {
         padding: 1rem;
       }
+
       .box {
         padding: 1.25rem;
       }
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      .endpoint {
+        align-items: flex-start;
+      }
+
       .endpoint a {
         font-size: 0.8rem;
         word-break: break-all;
+      }
+
+      .meta {
+        display: none;
       }
     }
   </style>
 </head>
 <body>
-<div class="container">
-  <div style="margin-bottom: 1.5rem;">
-    <h1>🚀 Hyperliquid API</h1>
-    <p style="margin-top: 0.5rem; color: #94a3b8;">Real-time leaderboard & trading analytics — live JSON feeds</p>
+  <div class="container">
+    <div style="margin-bottom: 1.5rem;">
+      <h1>🚀 Hyperliquid API</h1>
+      <p style="margin-top: 0.5rem; color: #94a3b8;">Real-time leaderboard & trading analytics — live JSON feeds</p>
+    </div>
+
+    <div class="box">
+      <div class="description">
+        📡 Public endpoints from <strong>/api/</strong>. The list below loads every JSON file currently published in the API folder and falls back to a static manifest if GitHub rate limits the request.
+      </div>
+
+      <div class="top-row">
+        <div class="section-title">
+          <span>📁</span> JSON ENDPOINTS
+        </div>
+        <span class="count-pill" id="endpoint-count">Loading…</span>
+      </div>
+
+      <div class="endpoint-grid" id="endpoint-grid">
+        <div class="status">Loading JSON file list…</div>
+      </div>
+
+      <div class="button-row">
+        <a class="button-link" href="./api/">Open /api/ directory page</a>
+        <button class="refresh-button" onclick="hardRefresh()">🔄 Clear Cache & Reload</button>
+      </div>
+
+      <div class="hint">
+        💡 Links open raw JSON. Hard refresh bypasses browser cache and forces a fresh API index read.
+      </div>
+    </div>
+
+    <div class="footer-note">
+      Hyperliquid ecosystem • live data feeds • auto-indexed from <span style="color:#38bdf8;">/api/*.json</span>
+    </div>
   </div>
 
-  <div class="box">
-    <div class="description">
-      📡 Public endpoints – updated dynamically. Click any link to view raw JSON data.
-    </div>
+  <script>
+    const API_BASE_PATH = './api/';
+    const GITHUB_CONTENTS_API = 'https://api.github.com/repos/apiHyperliquid/apiHyperliquid.github.io/contents/api?ref=main';
+    const FALLBACK_JSON_FILES = [
+      'lastUpdate.json',
+      'leaderboard.json',
+      'leaderboardActiveTrades.json',
+      'leaderboardReduced.json',
+      'leaderboardReducedBestHalfRoi.json',
+      'leaderboardTradingHistory.json',
+      'mostTradedTokensByUsers.json',
+      'mostTradedTokensByVolume.json',
+      'openDayTrades.json',
+      'openTrades.json',
+      'preferredTokens.json',
+      'result.json',
+      'signalOpenScore.json',
+      'top500.json'
+    ];
 
-    <div class="section-title">
-      <span>📁</span> AVAILABLE ENDPOINTS
-    </div>
-    <div class="endpoint-grid">
-      <div class="endpoint">
-        <span class="badge">JSON</span>
-        <a href="./api/leaderboard.json" target="_blank">leaderboard.json</a>
-      </div>
-      <div class="endpoint">
-        <span class="badge">JSON</span>
-        <a href="./api/leaderboardActiveTrades.json" target="_blank">leaderboardActiveTrades.json</a>
-      </div>
-      <div class="endpoint">
-        <span class="badge">JSON</span>
-        <a href="./api/leaderboardReduced.json" target="_blank">leaderboardReduced.json</a>
-      </div>
-      <div class="endpoint">
-        <span class="badge">JSON</span>
-        <a href="./api/leaderboardReducedBestHalfRoi.json" target="_blank">leaderboardReducedBestHalfRoi.json</a>
-      </div>
-      <!-- leaderboardTradingHistory.json has been REMOVED as requested -->
-      <div class="endpoint">
-        <span class="badge">JSON</span>
-        <a href="./api/result.json" target="_blank">result.json</a>
-      </div>
-      <div class="endpoint">
-        <span class="badge">JSON</span>
-        <a href="./api/mostTradedTokensByUsers.json" target="_blank">mostTradedTokensByUsers.json</a>
-      </div>
-      <div class="endpoint">
-        <span class="badge">JSON</span>
-        <a href="./api/mostTradedTokensByVolume.json" target="_blank">mostTradedTokensByVolume.json</a>
-      </div>
-      <div class="endpoint">
-        <span class="badge">JSON</span>
-        <a href="./api/openTrades.json" target="_blank">openTrades.json</a>
-      </div>
-      <div class="endpoint">
-        <span class="badge">JSON</span>
-        <a href="./api/preferredTokens.json" target="_blank">preferredTokens.json</a>
-      </div>
-      <div class="endpoint">
-        <span class="badge">JSON</span>
-        <a href="./api/signalOpenScore.json" target="_blank">signalOpenScore.json</a>
-      </div>
-      <div class="endpoint">
-        <span class="badge">JSON</span>
-        <a href="./api/top500.json" target="_blank">top500.json</a>
-      </div>
-      <div class="endpoint">
-        <span class="badge">JSON</span>
-        <a href="./api/lastUpdate.json" target="_blank">lastUpdate.json</a>
-      </div>
-    </div>
+    function renderEndpoints(files, sourceLabel) {
+      const grid = document.getElementById('endpoint-grid');
+      const count = document.getElementById('endpoint-count');
+      const uniqueFiles = [...new Set(files)].sort((a, b) => a.localeCompare(b));
 
-    <div style="display: flex; justify-content: flex-start; margin-top: 0.5rem;">
-      <button onclick="hardRefresh()">
-        🔄 Clear Cache & Reload
-      </button>
-    </div>
-    <div style="font-size: 0.7rem; margin-top: 1rem; color: #5b6e8c;">
-      💡 Hard refresh bypasses browser cache & forces fresh API reads.
-    </div>
-  </div>
-  <div class="footer-note">
-    Hyperliquid ecosystem • live data feeds • <span style="color:#38bdf8;">result.json</span> added (replaces leaderboardTradingHistory.json)
-  </div>
-</div>
+      count.textContent = uniqueFiles.length + ' JSON files';
+      grid.innerHTML = '';
 
-<script>
-  function hardRefresh() {
-    // Force cache-busting reload: append timestamp to current URL
-    const url = window.location.origin + window.location.pathname + "?t=" + Date.now();
-    window.location.href = url;
-  }
-</script>
+      uniqueFiles.forEach((fileName) => {
+        const row = document.createElement('div');
+        row.className = 'endpoint';
+
+        const badge = document.createElement('span');
+        badge.className = 'badge';
+        badge.textContent = 'JSON';
+
+        const link = document.createElement('a');
+        link.href = API_BASE_PATH + encodeURIComponent(fileName);
+        link.target = '_blank';
+        link.rel = 'noopener noreferrer';
+        link.textContent = fileName;
+
+        const meta = document.createElement('span');
+        meta.className = 'meta';
+        meta.textContent = sourceLabel;
+
+        row.appendChild(badge);
+        row.appendChild(link);
+        row.appendChild(meta);
+        grid.appendChild(row);
+      });
+    }
+
+    async function loadJsonIndex() {
+      try {
+        const response = await fetch(GITHUB_CONTENTS_API, { cache: 'no-store' });
+        if (!response.ok) throw new Error('GitHub API returned ' + response.status);
+
+        const entries = await response.json();
+        const files = entries
+          .filter((entry) => entry.type === 'file' && entry.name.toLowerCase().endsWith('.json'))
+          .map((entry) => entry.name);
+
+        if (!files.length) throw new Error('No JSON files found');
+        renderEndpoints(files, 'live');
+      } catch (error) {
+        console.warn('Using fallback JSON file list:', error);
+        renderEndpoints(FALLBACK_JSON_FILES, 'fallback');
+      }
+    }
+
+    function hardRefresh() {
+      const url = window.location.origin + window.location.pathname + '?t=' + Date.now();
+      window.location.href = url;
+    }
+
+    loadJsonIndex();
+  </script>
 </body>
 </html>
