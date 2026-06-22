@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hyperliquid API Files</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, sans-serif;
+      background: linear-gradient(135deg, #0b1120 0%, #0f172a 100%);
+      color: #e2e8f0;
+      padding: 2rem;
+      min-height: 100vh;
+    }
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background: radial-gradient(circle at 20% 30%, rgba(56, 189, 248, 0.08), transparent 60%);
+      pointer-events: none;
+      z-index: -1;
+    }
+    .container { max-width: 960px; margin: 0 auto; }
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, #38bdf8, #818cf8);
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+      letter-spacing: -0.02em;
+    }
+    .box {
+      background: rgba(30, 41, 59, 0.75);
+      backdrop-filter: blur(8px);
+      border-radius: 28px;
+      padding: 2rem;
+      box-shadow: 0 20px 35px -12px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(71, 85, 105, 0.5);
+    }
+    .description {
+      margin-bottom: 1.4rem;
+      font-size: 0.95rem;
+      color: #94a3b8;
+      border-left: 3px solid #38bdf8;
+      padding-left: 1rem;
+      line-height: 1.6;
+    }
+    .top-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: space-between;
+      align-items: center;
+      margin: 1.5rem 0 1rem;
+    }
+    .section-title {
+      font-size: 1rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #94a3b8;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .count-pill {
+      background: #0f212e;
+      color: #7dd3fc;
+      font-size: 0.78rem;
+      font-weight: 700;
+      padding: 0.35rem 0.75rem;
+      border-radius: 999px;
+      border: 1px solid #2c4c6e;
+    }
+    .endpoint-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 0.6rem;
+      margin: 0 0 2rem 0;
+    }
+    .endpoint {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      background: #0f172a;
+      padding: 0.7rem 1rem;
+      border-radius: 18px;
+      transition: all 0.2s ease;
+      border: 1px solid #1e293b;
+    }
+    .endpoint:hover {
+      background: #1e293b;
+      border-color: #334155;
+      transform: translateX(4px);
+    }
+    .endpoint a {
+      color: #7dd3fc;
+      text-decoration: none;
+      font-family: SFMono-Regular, Consolas, Liberation Mono, monospace;
+      font-size: 0.95rem;
+      font-weight: 500;
+      flex: 1;
+    }
+    .endpoint a:hover {
+      color: #38bdf8;
+      text-decoration: underline;
+      text-underline-offset: 4px;
+    }
+    .badge {
+      background: #0f212e;
+      color: #38bdf8;
+      font-size: 0.7rem;
+      font-weight: 600;
+      padding: 0.2rem 0.6rem;
+      border-radius: 30px;
+      letter-spacing: 0.3px;
+      border: 1px solid #2c4c6e;
+    }
+    .meta {
+      color: #64748b;
+      font-size: 0.75rem;
+      font-family: SFMono-Regular, Consolas, Liberation Mono, monospace;
+    }
+    .button-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      margin-top: 0.5rem;
+    }
+    button, .button-link {
+      background: linear-gradient(95deg, #0ea5e9, #2563eb);
+      border: none;
+      padding: 0.8rem 1.4rem;
+      border-radius: 40px;
+      font-weight: 600;
+      font-size: 0.9rem;
+      color: white;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.6rem;
+      transition: all 0.2s ease;
+      box-shadow: 0 4px 12px rgba(14, 165, 233, 0.25);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      text-decoration: none;
+    }
+    button:hover, .button-link:hover {
+      transform: scale(1.02);
+      box-shadow: 0 8px 20px rgba(14, 165, 233, 0.35);
+    }
+    .refresh-button {
+      background: linear-gradient(95deg, #ef4444, #dc2626);
+      box-shadow: 0 4px 12px rgba(220, 38, 38, 0.3);
+    }
+    .status {
+      color: #94a3b8;
+      font-size: 0.9rem;
+      padding: 1rem;
+      border: 1px dashed #334155;
+      border-radius: 18px;
+      background: rgba(15, 23, 42, 0.6);
+    }
+    .footer-note {
+      margin-top: 2rem;
+      font-size: 0.75rem;
+      text-align: center;
+      color: #475569;
+      border-top: 1px solid #1e293b;
+      padding-top: 1.5rem;
+    }
+    @media (max-width: 600px) {
+      body { padding: 1rem; }
+      .box { padding: 1.25rem; }
+      h1 { font-size: 2rem; }
+      .endpoint { align-items: flex-start; }
+      .endpoint a { font-size: 0.8rem; word-break: break-all; }
+      .meta { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div style="margin-bottom: 1.5rem;">
+      <h1>📁 API JSON Files</h1>
+      <p style="margin-top: 0.5rem; color: #94a3b8;">All public JSON feeds under /api/</p>
+    </div>
+
+    <div class="box">
+      <div class="description">
+        This page auto-indexes every <strong>.json</strong> file published in this API folder. Click any endpoint to open the raw JSON feed.
+      </div>
+
+      <div class="top-row">
+        <div class="section-title"><span>📡</span> AVAILABLE JSON FEEDS</div>
+        <span class="count-pill" id="endpoint-count">Loading…</span>
+      </div>
+
+      <div class="endpoint-grid" id="endpoint-grid">
+        <div class="status">Loading JSON file list…</div>
+      </div>
+
+      <div class="button-row">
+        <a class="button-link" href="../">Back to API dashboard</a>
+        <button class="refresh-button" onclick="hardRefresh()">🔄 Clear Cache & Reload</button>
+      </div>
+    </div>
+
+    <div class="footer-note">Hyperliquid ecosystem • public API JSON index</div>
+  </div>
+
+  <script>
+    const API_BASE_PATH = './';
+    const GITHUB_CONTENTS_API = 'https://api.github.com/repos/apiHyperliquid/apiHyperliquid.github.io/contents/api?ref=main';
+    const FALLBACK_JSON_FILES = [
+      'lastUpdate.json',
+      'leaderboard.json',
+      'leaderboardActiveTrades.json',
+      'leaderboardReduced.json',
+      'leaderboardReducedBestHalfRoi.json',
+      'leaderboardTradingHistory.json',
+      'mostTradedTokensByUsers.json',
+      'mostTradedTokensByVolume.json',
+      'openDayTrades.json',
+      'openTrades.json',
+      'preferredTokens.json',
+      'result.json',
+      'signalOpenScore.json',
+      'top500.json'
+    ];
+
+    function renderEndpoints(files, sourceLabel) {
+      const grid = document.getElementById('endpoint-grid');
+      const count = document.getElementById('endpoint-count');
+      const uniqueFiles = [...new Set(files)].sort((a, b) => a.localeCompare(b));
+      count.textContent = uniqueFiles.length + ' JSON files';
+      grid.innerHTML = '';
+
+      uniqueFiles.forEach((fileName) => {
+        const row = document.createElement('div');
+        row.className = 'endpoint';
+
+        const badge = document.createElement('span');
+        badge.className = 'badge';
+        badge.textContent = 'JSON';
+
+        const link = document.createElement('a');
+        link.href = API_BASE_PATH + encodeURIComponent(fileName);
+        link.target = '_blank';
+        link.rel = 'noopener noreferrer';
+        link.textContent = fileName;
+
+        const meta = document.createElement('span');
+        meta.className = 'meta';
+        meta.textContent = sourceLabel;
+
+        row.appendChild(badge);
+        row.appendChild(link);
+        row.appendChild(meta);
+        grid.appendChild(row);
+      });
+    }
+
+    async function loadJsonIndex() {
+      try {
+        const response = await fetch(GITHUB_CONTENTS_API, { cache: 'no-store' });
+        if (!response.ok) throw new Error('GitHub API returned ' + response.status);
+        const entries = await response.json();
+        const files = entries
+          .filter((entry) => entry.type === 'file' && entry.name.toLowerCase().endsWith('.json'))
+          .map((entry) => entry.name);
+        if (!files.length) throw new Error('No JSON files found');
+        renderEndpoints(files, 'live');
+      } catch (error) {
+        console.warn('Using fallback JSON file list:', error);
+        renderEndpoints(FALLBACK_JSON_FILES, 'fallback');
+      }
+    }
+
+    function hardRefresh() {
+      const url = window.location.origin + window.location.pathname + '?t=' + Date.now();
+      window.location.href = url;
+    }
+
+    loadJsonIndex();
+  </script>
+</body>
+</html>
