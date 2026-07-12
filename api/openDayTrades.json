@@ -1,11 +1,27 @@
 [
   {
+    "coin": "ZEC",
+    "entryPrice": 509.77,
+    "ethAddress": "0xc330a271b48461b0745879c06a933f42f0f4fc69",
+    "openTime": 1783820704354,
+    "side": "Short",
+    "size": -0.14
+  },
+  {
+    "coin": "BNB",
+    "entryPrice": 573.44,
+    "ethAddress": "0xd46eaa11643cfd2a4a702d8a85949122a77247c0",
+    "openTime": 1783820494929,
+    "side": "Long",
+    "size": 11.874
+  },
+  {
     "coin": "SOL",
-    "entryPrice": 78.7768,
+    "entryPrice": 78.2729,
     "ethAddress": "0x55a8bcd82bb4d5a027698a27959d459c6b645bfd",
     "openTime": 1783820458990,
     "side": "Long",
-    "size": 750.0
+    "size": 1000.0
   },
   {
     "coin": "ZEC",
@@ -24,20 +40,20 @@
     "size": 3.66
   },
   {
+    "coin": "LIT",
+    "entryPrice": 2.637436,
+    "ethAddress": "0x661f7ff35618d4ad965595a52f0b20ddda403eae",
+    "openTime": 1783820363177,
+    "side": "Short",
+    "size": -2000.0
+  },
+  {
     "coin": "BTC",
     "entryPrice": 64018.0,
     "ethAddress": "0x5675966015ff2e6269b323fda4359f9a3852b08b",
     "openTime": 1783820106466,
     "side": "Short",
     "size": -4.9927
-  },
-  {
-    "coin": "ETH",
-    "entryPrice": 1803.3,
-    "ethAddress": "0xfe65e38ffe08d8a2888e1467e1abafd9f2921eae",
-    "openTime": 1783820018929,
-    "side": "Short",
-    "size": -75.6435
   },
   {
     "coin": "MERL",
@@ -96,12 +112,36 @@
     "size": 50.0
   },
   {
+    "coin": "HBAR",
+    "entryPrice": 0.068663,
+    "ethAddress": "0x7ff4d42bfb46d25b7d8b241652271a12d614ea60",
+    "openTime": 1783819206533,
+    "side": "Short",
+    "size": -1960.0
+  },
+  {
     "coin": "HYPE",
     "entryPrice": 67.2,
     "ethAddress": "0x5a62d437575bd175495926de799050b34b4dba44",
     "openTime": 1783819175382,
     "side": "Short",
     "size": -400.0
+  },
+  {
+    "coin": "ALT",
+    "entryPrice": 0.006575,
+    "ethAddress": "0x7ff4d42bfb46d25b7d8b241652271a12d614ea60",
+    "openTime": 1783819037624,
+    "side": "Short",
+    "size": -72008.0
+  },
+  {
+    "coin": "APE",
+    "entryPrice": 0.15811,
+    "ethAddress": "0x7ff4d42bfb46d25b7d8b241652271a12d614ea60",
+    "openTime": 1783818995376,
+    "side": "Short",
+    "size": -1978.2
   },
   {
     "coin": "PUMP",
@@ -225,11 +265,11 @@
   },
   {
     "coin": "ARB",
-    "entryPrice": 0.09555,
+    "entryPrice": 0.0956,
     "ethAddress": "0x59e1120978c195657798a6d789d388d5cb59107e",
     "openTime": 1783816719037,
     "side": "Short",
-    "size": -896025.1
+    "size": -961015.0
   },
   {
     "coin": "HYPE",
@@ -945,14 +985,6 @@
   },
   {
     "coin": "CHIP",
-    "entryPrice": 0.033138,
-    "ethAddress": "0xdd219648b2b1e394e0e03893fadd57d8c6affa3f",
-    "openTime": 1783815082921,
-    "side": "Short",
-    "size": -50371.0
-  },
-  {
-    "coin": "CHIP",
     "entryPrice": 0.032563,
     "ethAddress": "0x7ff4d42bfb46d25b7d8b241652271a12d614ea60",
     "openTime": 1783815082921,
@@ -960,12 +992,12 @@
     "size": -58003.0
   },
   {
-    "coin": "XRP",
-    "entryPrice": 1.134466,
-    "ethAddress": "0xacf38fc1301382b2d462bf4855abe80552923a7e",
-    "openTime": 1783815075231,
+    "coin": "CHIP",
+    "entryPrice": 0.033138,
+    "ethAddress": "0xdd219648b2b1e394e0e03893fadd57d8c6affa3f",
+    "openTime": 1783815082921,
     "side": "Short",
-    "size": -1018.0
+    "size": -50371.0
   },
   {
     "coin": "XRP",
@@ -974,6 +1006,14 @@
     "openTime": 1783815075231,
     "side": "Short",
     "size": -2395.0
+  },
+  {
+    "coin": "XRP",
+    "entryPrice": 1.134466,
+    "ethAddress": "0xacf38fc1301382b2d462bf4855abe80552923a7e",
+    "openTime": 1783815075231,
+    "side": "Short",
+    "size": -1018.0
   },
   {
     "coin": "TIA",
@@ -1025,19 +1065,19 @@
   },
   {
     "coin": "FARTCOIN",
-    "entryPrice": 0.14676,
-    "ethAddress": "0xdd219648b2b1e394e0e03893fadd57d8c6affa3f",
-    "openTime": 1783814833838,
-    "side": "Long",
-    "size": 2189.8
-  },
-  {
-    "coin": "FARTCOIN",
     "entryPrice": 0.14948,
     "ethAddress": "0x7ff4d42bfb46d25b7d8b241652271a12d614ea60",
     "openTime": 1783814833838,
     "side": "Long",
     "size": 4289.8
+  },
+  {
+    "coin": "FARTCOIN",
+    "entryPrice": 0.14676,
+    "ethAddress": "0xdd219648b2b1e394e0e03893fadd57d8c6affa3f",
+    "openTime": 1783814833838,
+    "side": "Long",
+    "size": 2189.8
   },
   {
     "coin": "MORPHO",
@@ -1201,11 +1241,11 @@
   },
   {
     "coin": "CASHCAT",
-    "entryPrice": 0.200798,
+    "entryPrice": 0.202618,
     "ethAddress": "0xddfe0b953e0c88aaa8f01f769ffeb8c856e80f51",
     "openTime": 1783814035504,
     "side": "Short",
-    "size": -682901.0
+    "size": -1072621.0
   },
   {
     "coin": "JTO",
@@ -1249,11 +1289,11 @@
   },
   {
     "coin": "LIT",
-    "entryPrice": 2.449889,
+    "entryPrice": 2.451351,
     "ethAddress": "0x56498e5f90c14060499b62b6f459b3e3fb9280c5",
     "openTime": 1783813377273,
     "side": "Long",
-    "size": 2453002.0
+    "size": 2471102.0
   },
   {
     "coin": "VVV",
@@ -1313,11 +1353,11 @@
   },
   {
     "coin": "ETH",
-    "entryPrice": 1780.77,
+    "entryPrice": 1780.95,
     "ethAddress": "0x1fbf4789ac39de79936ccc29fa6789db6848a275",
     "openTime": 1783812879041,
     "side": "Long",
-    "size": 17.1382
+    "size": 17.2589
   },
   {
     "coin": "0G",
@@ -1560,14 +1600,6 @@
     "size": -1068.0
   },
   {
-    "coin": "BTC",
-    "entryPrice": 64135.2,
-    "ethAddress": "0x59e1120978c195657798a6d789d388d5cb59107e",
-    "openTime": 1783811629358,
-    "side": "Short",
-    "size": -1.47126
-  },
-  {
     "coin": "ETH",
     "entryPrice": 1807.49,
     "ethAddress": "0x79f2bb1fc86a1f0592fb30aa6a369a24a7fd2361",
@@ -1624,6 +1656,14 @@
     "size": 6500.0
   },
   {
+    "coin": "FIL",
+    "entryPrice": 0.75632,
+    "ethAddress": "0x5a41572196f22e4734209092da4d00b508e441b8",
+    "openTime": 1783809811916,
+    "side": "Short",
+    "size": -2038.1
+  },
+  {
     "coin": "PURR",
     "entryPrice": 0.105062,
     "ethAddress": "0x19ae423cbb2b06701a64896d12bb318e26e3e64f",
@@ -1638,6 +1678,14 @@
     "openTime": 1783809746843,
     "side": "Short",
     "size": -1.10317
+  },
+  {
+    "coin": "PENDLE",
+    "entryPrice": 1.561051,
+    "ethAddress": "0x5a41572196f22e4734209092da4d00b508e441b8",
+    "openTime": 1783809413209,
+    "side": "Long",
+    "size": 398.0
   },
   {
     "coin": "MORPHO",
@@ -1701,7 +1749,7 @@
     "ethAddress": "0xf315686b49d91440f57d2ecfec4f7bc3d397ae76",
     "openTime": 1783808079000,
     "side": "Short",
-    "size": -1050.0
+    "size": -850.0
   },
   {
     "coin": "BTC",
@@ -1816,14 +1864,6 @@
     "size": 43123.1
   },
   {
-    "coin": "ZEC",
-    "entryPrice": 526.3317,
-    "ethAddress": "0x5a41572196f22e4734209092da4d00b508e441b8",
-    "openTime": 1783804091451,
-    "side": "Short",
-    "size": -1.8
-  },
-  {
     "coin": "UNI",
     "entryPrice": 3.81787,
     "ethAddress": "0xdd219648b2b1e394e0e03893fadd57d8c6affa3f",
@@ -1857,11 +1897,11 @@
   },
   {
     "coin": "CASHCAT",
-    "entryPrice": 0.217255,
+    "entryPrice": 0.217135,
     "ethAddress": "0xdab9dc17e9d39b6da3d24fd2e167ce71275880a0",
     "openTime": 1783803682682,
     "side": "Short",
-    "size": -99000.0
+    "size": -101000.0
   },
   {
     "coin": "ICP",
@@ -2144,6 +2184,14 @@
     "size": -223.85
   },
   {
+    "coin": "ETHFI",
+    "entryPrice": 0.42237,
+    "ethAddress": "0x7ff4d42bfb46d25b7d8b241652271a12d614ea60",
+    "openTime": 1783802014199,
+    "side": "Short",
+    "size": -1469.0
+  },
+  {
     "coin": "OP",
     "entryPrice": 0.10689,
     "ethAddress": "0x7ff4d42bfb46d25b7d8b241652271a12d614ea60",
@@ -2325,7 +2373,7 @@
     "ethAddress": "0x41c684cbde3e449cc67c70aacb6132e3eb25b06d",
     "openTime": 1783798408408,
     "side": "Long",
-    "size": 226659.0
+    "size": 224437.0
   },
   {
     "coin": "VVV",
@@ -2534,6 +2582,14 @@
     "openTime": 1783794176828,
     "side": "Short",
     "size": -14533.0
+  },
+  {
+    "coin": "ZEC",
+    "entryPrice": 509.3806,
+    "ethAddress": "0x5a41572196f22e4734209092da4d00b508e441b8",
+    "openTime": 1783794058486,
+    "side": "Long",
+    "size": 1.12
   },
   {
     "coin": "LIT",
@@ -2856,14 +2912,6 @@
     "size": 8275.0
   },
   {
-    "coin": "BTC",
-    "entryPrice": 64122.0,
-    "ethAddress": "0xc55f34dfe52212cf659e3e5cc7439e98f58c9720",
-    "openTime": 1783786028944,
-    "side": "Short",
-    "size": -2.0
-  },
-  {
     "coin": "UNI",
     "entryPrice": 3.73423,
     "ethAddress": "0x6e7465acbaa3217bdcc4c17cdbe1dadbb4356377",
@@ -2961,11 +3009,11 @@
   },
   {
     "coin": "ONDO",
-    "entryPrice": 0.33347,
+    "entryPrice": 0.331944,
     "ethAddress": "0x46c9ccc6857e33a8209706bb5043700b4608dda8",
     "openTime": 1783784431869,
     "side": "Long",
-    "size": 4100.0
+    "size": 5100.0
   },
   {
     "coin": "LINK",
@@ -3354,18 +3402,18 @@
   {
     "coin": "CRV",
     "entryPrice": 0.2098,
-    "ethAddress": "0xacf38fc1301382b2d462bf4855abe80552923a7e",
-    "openTime": 1783780573905,
-    "side": "Short",
-    "size": -2183.1
-  },
-  {
-    "coin": "CRV",
-    "entryPrice": 0.2098,
     "ethAddress": "0xea4fc1ae43d644b35e6874c32c49516ccb21df32",
     "openTime": 1783780573905,
     "side": "Short",
     "size": -5136.8
+  },
+  {
+    "coin": "CRV",
+    "entryPrice": 0.2098,
+    "ethAddress": "0xacf38fc1301382b2d462bf4855abe80552923a7e",
+    "openTime": 1783780573905,
+    "side": "Short",
+    "size": -2183.1
   },
   {
     "coin": "ETH",
@@ -4553,11 +4601,11 @@
   },
   {
     "coin": "BTC",
-    "entryPrice": 63806.1,
+    "entryPrice": 63834.0,
     "ethAddress": "0xd3e15446cc9120f698a77ec9b6c42cd4f029f6e2",
     "openTime": 1783755571808,
     "side": "Short",
-    "size": -22.00073
+    "size": -24.24196
   },
   {
     "coin": "CASHCAT",
@@ -4617,11 +4665,11 @@
   },
   {
     "coin": "VIRTUAL",
-    "entryPrice": 0.60903,
+    "entryPrice": 0.60703,
     "ethAddress": "0x34827044cbd4b808fc1b189fce9f50e6dafae7c9",
     "openTime": 1783753830086,
     "side": "Long",
-    "size": 584.3
+    "size": 113.5
   },
   {
     "coin": "CASHCAT",
@@ -4629,7 +4677,7 @@
     "ethAddress": "0x901f21e23066a653d218f369d0f75bdc4f6ae383",
     "openTime": 1783753508099,
     "side": "Short",
-    "size": -365000.0
+    "size": -228000.0
   },
   {
     "coin": "LIT",
@@ -4749,7 +4797,7 @@
     "ethAddress": "0x5d9f164e9d873f54bd950c6f9c0233c2ac2ccbee",
     "openTime": 1783751078283,
     "side": "Short",
-    "size": -417100.0
+    "size": -402300.0
   },
   {
     "coin": "ETH",
@@ -4789,7 +4837,7 @@
     "ethAddress": "0x3d4873fad12d29ac2bef7d9953c72d8c3310deae",
     "openTime": 1783750527003,
     "side": "Long",
-    "size": 1660.64
+    "size": 1643.78
   },
   {
     "coin": "LIT",
@@ -4921,11 +4969,11 @@
   },
   {
     "coin": "CASHCAT",
-    "entryPrice": 0.21204,
+    "entryPrice": 0.207563,
     "ethAddress": "0xe642e0504b53c3d06438e57b90bc8fca6f2fa603",
     "openTime": 1783748364852,
     "side": "Long",
-    "size": 116561.0
+    "size": 127734.0
   },
   {
     "coin": "CASHCAT",
@@ -4965,7 +5013,7 @@
     "ethAddress": "0x6e098ae113561cba9fa4b96a47c95a460de09bcb",
     "openTime": 1783748114058,
     "side": "Short",
-    "size": -34769.0
+    "size": -32826.0
   },
   {
     "coin": "ETH",
@@ -5608,6 +5656,22 @@
     "size": -195.8
   },
   {
+    "coin": "TIA",
+    "entryPrice": 0.38854,
+    "ethAddress": "0xacf38fc1301382b2d462bf4855abe80552923a7e",
+    "openTime": 1783738694920,
+    "side": "Short",
+    "size": -11502.7
+  },
+  {
+    "coin": "TIA",
+    "entryPrice": 0.38875,
+    "ethAddress": "0xea4fc1ae43d644b35e6874c32c49516ccb21df32",
+    "openTime": 1783738694854,
+    "side": "Short",
+    "size": -27065.2
+  },
+  {
     "coin": "SPX",
     "entryPrice": 0.38452,
     "ethAddress": "0xff690b65398c5720bb39db03c58319c3ed3ac1d3",
@@ -5625,11 +5689,11 @@
   },
   {
     "coin": "ZEC",
-    "entryPrice": 508.6802,
+    "entryPrice": 508.6942,
     "ethAddress": "0x6a7fb420f31483b8a6cc6ce02e26e4787aed2d43",
     "openTime": 1783738451320,
     "side": "Long",
-    "size": 30.0
+    "size": 30.65
   },
   {
     "coin": "SOL",
@@ -5705,14 +5769,6 @@
   },
   {
     "coin": "MINA",
-    "entryPrice": 0.047035,
-    "ethAddress": "0xacf38fc1301382b2d462bf4855abe80552923a7e",
-    "openTime": 1783737856542,
-    "side": "Short",
-    "size": -53755.0
-  },
-  {
-    "coin": "MINA",
     "entryPrice": 0.046993,
     "ethAddress": "0xea4fc1ae43d644b35e6874c32c49516ccb21df32",
     "openTime": 1783737856542,
@@ -5720,20 +5776,28 @@
     "size": -126482.0
   },
   {
-    "coin": "WLD",
-    "entryPrice": 0.41743,
+    "coin": "MINA",
+    "entryPrice": 0.047035,
     "ethAddress": "0xacf38fc1301382b2d462bf4855abe80552923a7e",
-    "openTime": 1783737854783,
+    "openTime": 1783737856542,
     "side": "Short",
-    "size": -9894.2
+    "size": -53755.0
   },
   {
     "coin": "WLD",
-    "entryPrice": 0.41691,
+    "entryPrice": 0.41686,
     "ethAddress": "0xea4fc1ae43d644b35e6874c32c49516ccb21df32",
     "openTime": 1783737854783,
     "side": "Short",
-    "size": -23280.5
+    "size": -23356.3
+  },
+  {
+    "coin": "WLD",
+    "entryPrice": 0.41738,
+    "ethAddress": "0xacf38fc1301382b2d462bf4855abe80552923a7e",
+    "openTime": 1783737854783,
+    "side": "Short",
+    "size": -9926.4
   },
   {
     "coin": "MINA",
@@ -6032,6 +6096,30 @@
     "size": -17462.0
   },
   {
+    "coin": "ZRO",
+    "entryPrice": 0.93037,
+    "ethAddress": "0x7ff4d42bfb46d25b7d8b241652271a12d614ea60",
+    "openTime": 1783734966649,
+    "side": "Long",
+    "size": 511.4
+  },
+  {
+    "coin": "ZRO",
+    "entryPrice": 0.95298,
+    "ethAddress": "0xdd219648b2b1e394e0e03893fadd57d8c6affa3f",
+    "openTime": 1783734966649,
+    "side": "Long",
+    "size": 2376.9
+  },
+  {
+    "coin": "HYPE",
+    "entryPrice": 67.4301,
+    "ethAddress": "0xc99163f3968bf5fee1e05dd090b50623a652dcb4",
+    "openTime": 1783734962115,
+    "side": "Long",
+    "size": 5265.42
+  },
+  {
     "coin": "ETH",
     "entryPrice": 1790.67,
     "ethAddress": "0x3c43014aedbb496e173059f94bfe3b0ed1d55ba0",
@@ -6040,20 +6128,28 @@
     "size": 100.0
   },
   {
+    "coin": "kPEPE",
+    "entryPrice": 0.002837,
+    "ethAddress": "0x3c43014aedbb496e173059f94bfe3b0ed1d55ba0",
+    "openTime": 1783734926205,
+    "side": "Long",
+    "size": 12500000.0
+  },
+  {
     "coin": "VINE",
     "entryPrice": 0.009476,
     "ethAddress": "0x246f074547d510507676dcb33cf92656c3fd574c",
     "openTime": 1783734869803,
     "side": "Long",
-    "size": 3242.0
+    "size": 1153.0
   },
   {
     "coin": "HYPE",
-    "entryPrice": 67.8245,
+    "entryPrice": 67.824,
     "ethAddress": "0x661f7ff35618d4ad965595a52f0b20ddda403eae",
     "openTime": 1783734816271,
     "side": "Long",
-    "size": 939.0
+    "size": 940.0
   },
   {
     "coin": "HYPE",
@@ -6061,7 +6157,23 @@
     "ethAddress": "0xacf38fc1301382b2d462bf4855abe80552923a7e",
     "openTime": 1783734796765,
     "side": "Long",
-    "size": 799.71
+    "size": 798.66
+  },
+  {
+    "coin": "HYPE",
+    "entryPrice": 66.9157,
+    "ethAddress": "0x3c43014aedbb496e173059f94bfe3b0ed1d55ba0",
+    "openTime": 1783734781250,
+    "side": "Long",
+    "size": 500.0
+  },
+  {
+    "coin": "BTC",
+    "entryPrice": 64355.2,
+    "ethAddress": "0x5f8e50be79880b16bd75ebdab8638170511a0b5f",
+    "openTime": 1783734724422,
+    "side": "Short",
+    "size": -8.85239
   },
   {
     "coin": "HYPE",
@@ -6073,122 +6185,42 @@
   },
   {
     "coin": "HYPE",
-    "entryPrice": 68.1459,
-    "ethAddress": "0xea4fc1ae43d644b35e6874c32c49516ccb21df32",
-    "openTime": 1783734674826,
-    "side": "Long",
-    "size": 1881.67
-  },
-  {
-    "coin": "TIA",
-    "entryPrice": 0.38854,
-    "ethAddress": "0xacf38fc1301382b2d462bf4855abe80552923a7e",
-    "openTime": 1783734494124,
-    "side": "Short",
-    "size": -11502.7
-  },
-  {
-    "coin": "TIA",
-    "entryPrice": 0.38875,
-    "ethAddress": "0xea4fc1ae43d644b35e6874c32c49516ccb21df32",
-    "openTime": 1783734494124,
-    "side": "Short",
-    "size": -27065.2
-  },
-  {
-    "coin": "ETHFI",
-    "entryPrice": 0.42237,
-    "ethAddress": "0x7ff4d42bfb46d25b7d8b241652271a12d614ea60",
-    "openTime": 1783734445017,
-    "side": "Short",
-    "size": -1469.0
-  },
-  {
-    "coin": "MON",
-    "entryPrice": 0.023621,
-    "ethAddress": "0xdd219648b2b1e394e0e03893fadd57d8c6affa3f",
-    "openTime": 1783734417284,
-    "side": "Short",
-    "size": -7286.0
-  },
-  {
-    "coin": "ZRO",
-    "entryPrice": 0.95298,
-    "ethAddress": "0xdd219648b2b1e394e0e03893fadd57d8c6affa3f",
-    "openTime": 1783734415608,
-    "side": "Long",
-    "size": 2376.9
-  },
-  {
-    "coin": "ZRO",
-    "entryPrice": 0.93037,
-    "ethAddress": "0x7ff4d42bfb46d25b7d8b241652271a12d614ea60",
-    "openTime": 1783734415068,
-    "side": "Long",
-    "size": 511.4
-  },
-  {
-    "coin": "BTC",
-    "entryPrice": 64355.3,
-    "ethAddress": "0x5f8e50be79880b16bd75ebdab8638170511a0b5f",
-    "openTime": 1783734323791,
-    "side": "Short",
-    "size": -8.84923
-  },
-  {
-    "coin": "HYPE",
     "entryPrice": 67.2316,
     "ethAddress": "0x3bcc125bc6468988d75493200e15d4c7a0782b03",
-    "openTime": 1783734301256,
+    "openTime": 1783734687751,
     "side": "Long",
-    "size": 4021.04
-  },
-  {
-    "coin": "HYPE",
-    "entryPrice": 67.4301,
-    "ethAddress": "0xc99163f3968bf5fee1e05dd090b50623a652dcb4",
-    "openTime": 1783734263180,
-    "side": "Long",
-    "size": 5265.42
-  },
-  {
-    "coin": "kPEPE",
-    "entryPrice": 0.002837,
-    "ethAddress": "0x3c43014aedbb496e173059f94bfe3b0ed1d55ba0",
-    "openTime": 1783734259117,
-    "side": "Long",
-    "size": 12500000.0
-  },
-  {
-    "coin": "HYPE",
-    "entryPrice": 66.9157,
-    "ethAddress": "0x3c43014aedbb496e173059f94bfe3b0ed1d55ba0",
-    "openTime": 1783734247036,
-    "side": "Long",
-    "size": 500.0
-  },
-  {
-    "coin": "HYPE",
-    "entryPrice": 67.2221,
-    "ethAddress": "0xa67fa81a029b26522b8bf193c6a3f0337ad9f9dc",
-    "openTime": 1783734209970,
-    "side": "Long",
-    "size": 2006.8
+    "size": 3865.04
   },
   {
     "coin": "HYPE",
     "entryPrice": 67.2288,
     "ethAddress": "0xf4b556890f0cb2fdd7f2b83854f9b4899c404779",
-    "openTime": 1783734209566,
+    "openTime": 1783734687751,
     "side": "Long",
-    "size": 1067.44
+    "size": 1028.44
+  },
+  {
+    "coin": "HYPE",
+    "entryPrice": 68.1459,
+    "ethAddress": "0xea4fc1ae43d644b35e6874c32c49516ccb21df32",
+    "openTime": 1783734674826,
+    "side": "Long",
+    "size": 1879.19
+  },
+  {
+    "coin": "HYPE",
+    "entryPrice": 67.2221,
+    "ethAddress": "0xa67fa81a029b26522b8bf193c6a3f0337ad9f9dc",
+    "openTime": 1783734639085,
+    "side": "Long",
+    "size": 1933.04
   },
   {
     "coin": "HYPE",
     "entryPrice": 67.2249,
     "ethAddress": "0x8e6474db22d4d15eb352c9a16c9e801bcfe1bf24",
-    "openTime": 1783734204938,
+    "openTime": 1783734639085,
     "side": "Long",
-    "size": 1029.97
+    "size": 997.47
   }
 ]
