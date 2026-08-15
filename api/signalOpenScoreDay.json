@@ -3,11 +3,27 @@
     "title": "Open Position Signal Score",
     "score_formula": "round(month_roi * 100)",
     "score_example": "10% ROI -> 10 score, 5% ROI -> 5 score",
-    "generated_at": "2026-08-15 22:57:55 UTC"
+    "generated_at": "2026-08-15 23:02:42 UTC"
   },
   "signals": [
     {
       "rank": 1,
+      "coin": "AAVE",
+      "long": {
+        "users": 1,
+        "score": 64,
+        "earliest_entry": "2026-08-15 10:53:19 UTC",
+        "most_recent_entry": "2026-08-15 10:53:19 UTC"
+      },
+      "short": {
+        "users": 0,
+        "score": 0,
+        "earliest_entry": null,
+        "most_recent_entry": null
+      }
+    },
+    {
+      "rank": 2,
       "coin": "ACE",
       "long": {
         "users": 1,
@@ -23,7 +39,7 @@
       }
     },
     {
-      "rank": 2,
+      "rank": 3,
       "coin": "AZTEC",
       "long": {
         "users": 1,
@@ -39,7 +55,7 @@
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "coin": "BNB",
       "long": {
         "users": 1,
@@ -55,28 +71,12 @@
       }
     },
     {
-      "rank": 4,
-      "coin": "BOME",
-      "long": {
-        "users": 0,
-        "score": 0,
-        "earliest_entry": null,
-        "most_recent_entry": null
-      },
-      "short": {
-        "users": 1,
-        "score": 78,
-        "earliest_entry": "2026-08-15 14:55:47 UTC",
-        "most_recent_entry": "2026-08-15 14:55:47 UTC"
-      }
-    },
-    {
       "rank": 5,
       "coin": "BTC",
       "long": {
-        "users": 13,
-        "score": 2213,
-        "earliest_entry": "2026-08-14 22:57:10 UTC",
+        "users": 14,
+        "score": 2311,
+        "earliest_entry": "2026-08-14 23:03:13 UTC",
         "most_recent_entry": "2026-08-15 14:05:26 UTC"
       },
       "short": {
@@ -98,7 +98,7 @@
       "short": {
         "users": 4,
         "score": 1206,
-        "earliest_entry": "2026-08-14 22:57:28 UTC",
+        "earliest_entry": "2026-08-14 23:14:40 UTC",
         "most_recent_entry": "2026-08-15 15:27:19 UTC"
       }
     },
@@ -274,7 +274,7 @@
       "short": {
         "users": 3,
         "score": 959,
-        "earliest_entry": "2026-08-14 23:01:41 UTC",
+        "earliest_entry": "2026-08-14 23:07:45 UTC",
         "most_recent_entry": "2026-08-15 15:35:05 UTC"
       }
     },
@@ -466,7 +466,7 @@
       "short": {
         "users": 4,
         "score": 334,
-        "earliest_entry": "2026-08-14 22:59:48 UTC",
+        "earliest_entry": "2026-08-14 23:02:48 UTC",
         "most_recent_entry": "2026-08-15 20:26:12 UTC"
       }
     },
