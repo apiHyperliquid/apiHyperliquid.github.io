@@ -1,5 +1,29 @@
 [
   {
+    "coin": "ETH",
+    "entryPrice": 1886.7,
+    "ethAddress": "0xcaaacd1e5f394da3e5006edc7c05fd7bfdc5764b",
+    "openTime": 1786908818332,
+    "side": "Short",
+    "size": -100.0
+  },
+  {
+    "coin": "BTC",
+    "entryPrice": 63192.0,
+    "ethAddress": "0x600330449a73755fb4d7f82250938ab0bd7c5596",
+    "openTime": 1786908629767,
+    "side": "Long",
+    "size": 2.1
+  },
+  {
+    "coin": "ETH",
+    "entryPrice": 1886.9,
+    "ethAddress": "0x600330449a73755fb4d7f82250938ab0bd7c5596",
+    "openTime": 1786908614105,
+    "side": "Long",
+    "size": 70.0
+  },
+  {
     "coin": "CASHCAT",
     "entryPrice": 0.107618,
     "ethAddress": "0xa1c9d41719c4ffd99463f1cfa579d9b6a96b50c6",
@@ -309,7 +333,7 @@
     "ethAddress": "0x98d6fc98b3c26b9dd3b7e4bac3e11ceb3e7171da",
     "openTime": 1786891800572,
     "side": "Long",
-    "size": 181131.2
+    "size": 182622.6
   },
   {
     "coin": "ETH",
@@ -422,6 +446,14 @@
     "openTime": 1786875649714,
     "side": "Short",
     "size": -150.15
+  },
+  {
+    "coin": "PUMP",
+    "entryPrice": 0.00275,
+    "ethAddress": "0x91487668dc7f16e26b8ce5feb39cef66163f1b74",
+    "openTime": 1786874124205,
+    "side": "Long",
+    "size": 7278020.0
   },
   {
     "coin": "BTC",
@@ -737,11 +769,11 @@
   },
   {
     "coin": "CRV",
-    "entryPrice": 0.24604,
+    "entryPrice": 0.24655,
     "ethAddress": "0xbeccae9ffcb69e9d42a1d4e744abf8056149562d",
     "openTime": 1786836782982,
     "side": "Short",
-    "size": -11298.4
+    "size": -12612.7
   },
   {
     "coin": "AVAX",
@@ -941,7 +973,7 @@
     "ethAddress": "0xbeccae9ffcb69e9d42a1d4e744abf8056149562d",
     "openTime": 1786825854868,
     "side": "Long",
-    "size": 3128.39
+    "size": 2888.46
   },
   {
     "coin": "PUMP",
@@ -965,15 +997,15 @@
     "ethAddress": "0xbeccae9ffcb69e9d42a1d4e744abf8056149562d",
     "openTime": 1786824595005,
     "side": "Short",
-    "size": -84.1485
+    "size": -57.6454
   },
   {
     "coin": "CASHCAT",
-    "entryPrice": 0.108256,
+    "entryPrice": 0.108275,
     "ethAddress": "0x870a4276a7770e7dec60e9582a034937ea2c98ba",
     "openTime": 1786824159675,
     "side": "Short",
-    "size": -6757.0
+    "size": -8007.0
   },
   {
     "coin": "HYPE",
@@ -989,7 +1021,15 @@
     "ethAddress": "0xbeccae9ffcb69e9d42a1d4e744abf8056149562d",
     "openTime": 1786823858530,
     "side": "Short",
-    "size": -42088557.0
+    "size": -41839447.0
+  },
+  {
+    "coin": "ZEC",
+    "entryPrice": 491.7992,
+    "ethAddress": "0xbeccae9ffcb69e9d42a1d4e744abf8056149562d",
+    "openTime": 1786823718677,
+    "side": "Long",
+    "size": 36.98
   },
   {
     "coin": "XMR",
@@ -1032,34 +1072,10 @@
     "size": 26.03
   },
   {
-    "coin": "BTC",
-    "entryPrice": 63381.0,
-    "ethAddress": "0x833b99b27dac651d02080f5e220e929df891db06",
-    "openTime": 1786822700805,
-    "side": "Short",
-    "size": -98.71128
-  },
-  {
-    "coin": "ZEC",
-    "entryPrice": 491.7992,
-    "ethAddress": "0xbeccae9ffcb69e9d42a1d4e744abf8056149562d",
-    "openTime": 1786822624018,
-    "side": "Long",
-    "size": 36.98
-  },
-  {
-    "coin": "BTC",
-    "entryPrice": 63482.4,
-    "ethAddress": "0x5f8e50be79880b16bd75ebdab8638170511a0b5f",
-    "openTime": 1786822443991,
-    "side": "Long",
-    "size": 29.08545
-  },
-  {
     "coin": "CHIP",
     "entryPrice": 0.028987,
     "ethAddress": "0xbeccae9ffcb69e9d42a1d4e744abf8056149562d",
-    "openTime": 1786822411216,
+    "openTime": 1786822907757,
     "side": "Short",
     "size": -1509014.0
   },
@@ -1067,8 +1083,24 @@
     "coin": "BTC",
     "entryPrice": 63445.9,
     "ethAddress": "0xdc8047a4afdc2725efdd1cca2144330b13a3d8bf",
-    "openTime": 1786822409648,
+    "openTime": 1786822721810,
     "side": "Short",
     "size": -8.11875
+  },
+  {
+    "coin": "BTC",
+    "entryPrice": 63482.4,
+    "ethAddress": "0x5f8e50be79880b16bd75ebdab8638170511a0b5f",
+    "openTime": 1786822710362,
+    "side": "Long",
+    "size": 29.08604
+  },
+  {
+    "coin": "BTC",
+    "entryPrice": 63381.0,
+    "ethAddress": "0x833b99b27dac651d02080f5e220e929df891db06",
+    "openTime": 1786822700805,
+    "side": "Short",
+    "size": -98.71128
   }
 ]
