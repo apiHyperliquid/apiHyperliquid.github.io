@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-14T11:40:34+00:00",
+  "generatedAt": "2026-09-14T11:47:34+00:00",
   "generatedBy": "appUnified.py",
   "sortedBy": "allTime",
   "rowsWritten": 100,
-  "rowsWithOpenTrades": 1,
-  "openTradesTotal": 8,
+  "rowsWithOpenTrades": 2,
+  "openTradesTotal": 10,
   "leaderboardRows": [
     {
       "ethAddress": "0x4ec8fe22a531a96c8a846aaf5cbef73202649a80",
@@ -3824,12 +3824,47 @@
         ],
         [
           "OpenTrades",
-          []
+          [
+            {
+              "Token ticker": "HYPE",
+              "Side": "Long",
+              "entrySize USD notional": "1945769.13",
+              "entrySize USD leveraged": "9728845.65",
+              "entrySize HYPE leveraged": "173628.62",
+              "Leverage": "5x",
+              "leverageType": "cross",
+              "entryPrice": 56.0325,
+              "openTime": 1789386363469,
+              "openTimeIso": "2026-09-14T11:46:03+00:00",
+              "positionValue": "13926404.3529599998",
+              "unrealizedPnl": "4197558.2796780001",
+              "returnOnEquity": "2.1572744846",
+              "liquidationPx": null,
+              "marginUsed": "2785280.870592"
+            },
+            {
+              "Token ticker": "ZEC",
+              "Side": "Long",
+              "entrySize USD notional": "45758.85",
+              "entrySize USD leveraged": "457588.47",
+              "entrySize ZEC leveraged": "405.55",
+              "Leverage": "10x",
+              "leverageType": "cross",
+              "entryPrice": 1128.3158,
+              "openTime": 1789386363469,
+              "openTimeIso": "2026-09-14T11:46:03+00:00",
+              "positionValue": "460988.685",
+              "unrealizedPnl": "3400.205856",
+              "returnOnEquity": "0.0743070687",
+              "liquidationPx": null,
+              "marginUsed": "46098.8685"
+            }
+          ]
         ]
       ],
       "prize": 0,
       "displayName": null,
-      "openTradeCount": 0
+      "openTradeCount": 2
     },
     {
       "ethAddress": "0x4f8613500222a4b6e7f570c23ec59c7d936977f1",
@@ -4286,11 +4321,11 @@
               "entryPrice": 62.5246,
               "openTime": 1789261001029,
               "openTimeIso": "2026-09-13T00:56:41+00:00",
-              "positionValue": "15846158.2717909999",
-              "unrealizedPnl": "3478895.7931300001",
-              "returnOnEquity": "2.8129877563",
-              "liquidationPx": "48.537540522",
-              "marginUsed": "1584615.827179"
+              "positionValue": "15855316.3344700001",
+              "unrealizedPnl": "3488053.8558089999",
+              "returnOnEquity": "2.820392841",
+              "liquidationPx": "48.4520951157",
+              "marginUsed": "1585531.6334470001"
             },
             {
               "Token ticker": "BTC",
@@ -4303,11 +4338,11 @@
               "entryPrice": 77533.3,
               "openTime": 1789261001029,
               "openTimeIso": "2026-09-13T00:56:41+00:00",
-              "positionValue": "7018531.5048099998",
-              "unrealizedPnl": "17664.539757",
-              "returnOnEquity": "0.1009277271",
-              "liquidationPx": "11187.6663368047",
-              "marginUsed": "175463.28762"
+              "positionValue": "7022955.9544200003",
+              "unrealizedPnl": "22088.989367",
+              "returnOnEquity": "0.1262071654",
+              "liquidationPx": "10959.0267244177",
+              "marginUsed": "175573.89886"
             },
             {
               "Token ticker": "SOL",
@@ -4320,11 +4355,11 @@
               "entryPrice": 80.7459,
               "openTime": 1789261001029,
               "openTimeIso": "2026-09-13T00:56:41+00:00",
-              "positionValue": "5768833.4632000001",
-              "unrealizedPnl": "-1182285.3027600001",
-              "returnOnEquity": "-5.155447022",
-              "liquidationPx": "203.4666684113",
-              "marginUsed": "288441.67316"
+              "positionValue": "5764857.3077999996",
+              "unrealizedPnl": "-1178309.1473600001",
+              "returnOnEquity": "-5.1381086872",
+              "liquidationPx": "203.8218677026",
+              "marginUsed": "288242.86539"
             },
             {
               "Token ticker": "ETH",
@@ -4337,11 +4372,11 @@
               "entryPrice": 1969.0,
               "openTime": 1789261001029,
               "openTimeIso": "2026-09-13T00:56:41+00:00",
-              "positionValue": "5580782.58354",
-              "unrealizedPnl": "-1207554.6952569999",
-              "returnOnEquity": "-6.9031086768",
-              "liquidationPx": "5131.7099176068",
-              "marginUsed": "223231.303341"
+              "positionValue": "5578894.70787",
+              "unrealizedPnl": "-1205666.8195869999",
+              "returnOnEquity": "-6.8923164444",
+              "liquidationPx": "5141.7875750243",
+              "marginUsed": "223155.788314"
             },
             {
               "Token ticker": "XPL",
@@ -4354,11 +4389,11 @@
               "entryPrice": 0.091043,
               "openTime": 1789261001029,
               "openTimeIso": "2026-09-13T00:56:41+00:00",
-              "positionValue": "803880.704576",
-              "unrealizedPnl": "-83287.927746",
-              "returnOnEquity": "-0.9388060478",
+              "positionValue": "804543.329284",
+              "unrealizedPnl": "-82625.303038",
+              "returnOnEquity": "-0.9313370652",
               "liquidationPx": null,
-              "marginUsed": "80388.070457"
+              "marginUsed": "80454.332928"
             },
             {
               "Token ticker": "PURR",
@@ -4371,11 +4406,11 @@
               "entryPrice": 0.072483,
               "openTime": 1789261001029,
               "openTimeIso": "2026-09-13T00:56:41+00:00",
-              "positionValue": "892206.25223",
-              "unrealizedPnl": "320357.254171",
-              "returnOnEquity": "1.6806390599",
+              "positionValue": "894020.80204",
+              "unrealizedPnl": "322171.803981",
+              "returnOnEquity": "1.6901584426",
               "liquidationPx": null,
-              "marginUsed": "297402.084076"
+              "marginUsed": "298006.934013"
             },
             {
               "Token ticker": "BLUR",
@@ -4388,11 +4423,11 @@
               "entryPrice": 0.018435,
               "openTime": 1789261001029,
               "openTimeIso": "2026-09-13T00:56:41+00:00",
-              "positionValue": "174847.020803",
-              "unrealizedPnl": "-7341.367229",
-              "returnOnEquity": "-0.1208864183",
+              "positionValue": "173987.263226",
+              "unrealizedPnl": "-8201.124806",
+              "returnOnEquity": "-0.1350435924",
               "liquidationPx": null,
-              "marginUsed": "58282.340267"
+              "marginUsed": "57995.754408"
             },
             {
               "Token ticker": "NEAR",
@@ -4405,11 +4440,11 @@
               "entryPrice": 1.74748,
               "openTime": 1789261001029,
               "openTimeIso": "2026-09-13T00:56:41+00:00",
-              "positionValue": "91994.64329",
-              "unrealizedPnl": "25304.450436",
-              "returnOnEquity": "3.7943285741",
+              "positionValue": "92050.362",
+              "unrealizedPnl": "25360.169146",
+              "returnOnEquity": "3.8026834323",
               "liquidationPx": null,
-              "marginUsed": "9199.464329"
+              "marginUsed": "9205.0362"
             }
           ]
         ]
