@@ -3,15 +3,31 @@
     "title": "Open Position Signal Score",
     "score_formula": "round(month_roi * 100)",
     "score_example": "10% ROI -> 10 score, 5% ROI -> 5 score",
-    "generated_at": "2026-09-14 17:45:24 UTC"
+    "generated_at": "2026-09-14 17:52:35 UTC"
   },
   "signals": [
     {
       "rank": 1,
+      "coin": "0G",
+      "long": {
+        "users": 1,
+        "score": 286,
+        "earliest_entry": "2026-09-14 17:30:52 UTC",
+        "most_recent_entry": "2026-09-14 17:30:52 UTC"
+      },
+      "short": {
+        "users": 0,
+        "score": 0,
+        "earliest_entry": null,
+        "most_recent_entry": null
+      }
+    },
+    {
+      "rank": 2,
       "coin": "AAVE",
       "long": {
         "users": 6,
-        "score": 1251,
+        "score": 1255,
         "earliest_entry": "2026-09-14 02:08:03 UTC",
         "most_recent_entry": "2026-09-14 17:33:34 UTC"
       },
@@ -23,12 +39,12 @@
       }
     },
     {
-      "rank": 2,
+      "rank": 3,
       "coin": "ADA",
       "long": {
-        "users": 2,
-        "score": 319,
-        "earliest_entry": "2026-09-14 08:46:09 UTC",
+        "users": 3,
+        "score": 419,
+        "earliest_entry": "2026-09-14 03:01:29 UTC",
         "most_recent_entry": "2026-09-14 17:12:38 UTC"
       },
       "short": {
@@ -39,13 +55,13 @@
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "coin": "AERO",
       "long": {
-        "users": 3,
-        "score": 482,
+        "users": 4,
+        "score": 576,
         "earliest_entry": "2026-09-14 02:02:32 UTC",
-        "most_recent_entry": "2026-09-14 16:40:02 UTC"
+        "most_recent_entry": "2026-09-14 17:26:23 UTC"
       },
       "short": {
         "users": 0,
@@ -55,27 +71,43 @@
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
+      "coin": "APE",
+      "long": {
+        "users": 1,
+        "score": 82,
+        "earliest_entry": "2026-09-14 01:06:11 UTC",
+        "most_recent_entry": "2026-09-14 01:06:11 UTC"
+      },
+      "short": {
+        "users": 0,
+        "score": 0,
+        "earliest_entry": null,
+        "most_recent_entry": null
+      }
+    },
+    {
+      "rank": 6,
       "coin": "APT",
       "long": {
-        "users": 2,
-        "score": 1327,
+        "users": 3,
+        "score": 1638,
         "earliest_entry": "2026-09-14 08:14:48 UTC",
-        "most_recent_entry": "2026-09-14 10:04:24 UTC"
+        "most_recent_entry": "2026-09-14 11:22:43 UTC"
       },
       "short": {
         "users": 1,
-        "score": 979,
+        "score": 970,
         "earliest_entry": "2026-09-14 09:20:02 UTC",
         "most_recent_entry": "2026-09-14 09:20:02 UTC"
       }
     },
     {
-      "rank": 5,
+      "rank": 7,
       "coin": "AR",
       "long": {
         "users": 2,
-        "score": 381,
+        "score": 400,
         "earliest_entry": "2026-09-14 03:17:29 UTC",
         "most_recent_entry": "2026-09-14 16:07:06 UTC"
       },
@@ -87,28 +119,28 @@
       }
     },
     {
-      "rank": 6,
+      "rank": 8,
       "coin": "ARB",
       "long": {
-        "users": 8,
-        "score": 2257,
-        "earliest_entry": "2026-09-13 17:46:43 UTC",
-        "most_recent_entry": "2026-09-14 16:19:20 UTC"
+        "users": 10,
+        "score": 2750,
+        "earliest_entry": "2026-09-13 19:08:55 UTC",
+        "most_recent_entry": "2026-09-14 17:33:39 UTC"
       },
       "short": {
         "users": 2,
-        "score": 1098,
+        "score": 1070,
         "earliest_entry": "2026-09-14 04:26:43 UTC",
         "most_recent_entry": "2026-09-14 17:27:41 UTC"
       }
     },
     {
-      "rank": 7,
+      "rank": 9,
       "coin": "ASTER",
       "long": {
-        "users": 4,
-        "score": 820,
-        "earliest_entry": "2026-09-13 17:50:56 UTC",
+        "users": 5,
+        "score": 938,
+        "earliest_entry": "2026-09-13 19:10:37 UTC",
         "most_recent_entry": "2026-09-14 08:27:52 UTC"
       },
       "short": {
@@ -119,11 +151,11 @@
       }
     },
     {
-      "rank": 8,
+      "rank": 10,
       "coin": "AVAX",
       "long": {
         "users": 1,
-        "score": 979,
+        "score": 970,
         "earliest_entry": "2026-09-14 01:35:09 UTC",
         "most_recent_entry": "2026-09-14 01:35:09 UTC"
       },
@@ -135,11 +167,11 @@
       }
     },
     {
-      "rank": 9,
+      "rank": 11,
       "coin": "AVNT",
       "long": {
         "users": 1,
-        "score": 206,
+        "score": 216,
         "earliest_entry": "2026-09-13 22:10:24 UTC",
         "most_recent_entry": "2026-09-13 22:10:24 UTC"
       },
@@ -151,7 +183,7 @@
       }
     },
     {
-      "rank": 10,
+      "rank": 12,
       "coin": "BCH",
       "long": {
         "users": 0,
@@ -167,11 +199,11 @@
       }
     },
     {
-      "rank": 11,
+      "rank": 13,
       "coin": "BNB",
       "long": {
-        "users": 2,
-        "score": 304,
+        "users": 3,
+        "score": 406,
         "earliest_entry": "2026-09-13 22:30:08 UTC",
         "most_recent_entry": "2026-09-14 12:34:37 UTC"
       },
@@ -183,7 +215,7 @@
       }
     },
     {
-      "rank": 12,
+      "rank": 14,
       "coin": "BSV",
       "long": {
         "users": 0,
@@ -193,33 +225,33 @@
       },
       "short": {
         "users": 2,
-        "score": 1227,
+        "score": 1214,
         "earliest_entry": "2026-09-14 11:01:31 UTC",
         "most_recent_entry": "2026-09-14 16:22:30 UTC"
       }
     },
     {
-      "rank": 13,
+      "rank": 15,
       "coin": "BTC",
       "long": {
-        "users": 67,
-        "score": 17551,
+        "users": 71,
+        "score": 18733,
         "earliest_entry": "2026-09-13 18:15:14 UTC",
         "most_recent_entry": "2026-09-14 17:10:38 UTC"
       },
       "short": {
         "users": 21,
-        "score": 5125,
+        "score": 5078,
         "earliest_entry": "2026-09-13 20:33:56 UTC",
         "most_recent_entry": "2026-09-14 16:04:34 UTC"
       }
     },
     {
-      "rank": 14,
+      "rank": 16,
       "coin": "CAKE",
       "long": {
         "users": 2,
-        "score": 228,
+        "score": 237,
         "earliest_entry": "2026-09-13 20:33:39 UTC",
         "most_recent_entry": "2026-09-13 21:32:23 UTC"
       },
@@ -231,43 +263,43 @@
       }
     },
     {
-      "rank": 15,
+      "rank": 17,
       "coin": "CASHCAT",
       "long": {
-        "users": 13,
-        "score": 2849,
+        "users": 14,
+        "score": 3023,
         "earliest_entry": "2026-09-13 18:02:12 UTC",
         "most_recent_entry": "2026-09-14 17:25:44 UTC"
       },
       "short": {
         "users": 2,
-        "score": 216,
+        "score": 198,
         "earliest_entry": "2026-09-13 17:51:15 UTC",
         "most_recent_entry": "2026-09-14 13:21:57 UTC"
       }
     },
     {
-      "rank": 16,
+      "rank": 18,
       "coin": "CHIP",
       "long": {
-        "users": 4,
-        "score": 1325,
+        "users": 5,
+        "score": 1662,
         "earliest_entry": "2026-09-13 23:08:40 UTC",
         "most_recent_entry": "2026-09-14 16:37:55 UTC"
       },
       "short": {
-        "users": 1,
-        "score": 228,
-        "earliest_entry": "2026-09-13 18:13:30 UTC",
-        "most_recent_entry": "2026-09-13 18:13:30 UTC"
+        "users": 0,
+        "score": 0,
+        "earliest_entry": null,
+        "most_recent_entry": null
       }
     },
     {
-      "rank": 17,
+      "rank": 19,
       "coin": "COMP",
       "long": {
         "users": 1,
-        "score": 89,
+        "score": 91,
         "earliest_entry": "2026-09-14 05:06:34 UTC",
         "most_recent_entry": "2026-09-14 05:06:34 UTC"
       },
@@ -279,27 +311,27 @@
       }
     },
     {
-      "rank": 18,
+      "rank": 20,
       "coin": "CRV",
       "long": {
         "users": 4,
-        "score": 671,
+        "score": 707,
         "earliest_entry": "2026-09-13 17:55:23 UTC",
         "most_recent_entry": "2026-09-14 06:23:40 UTC"
       },
       "short": {
         "users": 1,
-        "score": 146,
+        "score": 142,
         "earliest_entry": "2026-09-13 18:18:01 UTC",
         "most_recent_entry": "2026-09-13 18:18:01 UTC"
       }
     },
     {
-      "rank": 19,
+      "rank": 21,
       "coin": "DOGE",
       "long": {
         "users": 2,
-        "score": 959,
+        "score": 982,
         "earliest_entry": "2026-09-13 23:09:56 UTC",
         "most_recent_entry": "2026-09-14 11:53:44 UTC"
       },
@@ -311,11 +343,11 @@
       }
     },
     {
-      "rank": 20,
+      "rank": 22,
       "coin": "DOT",
       "long": {
         "users": 2,
-        "score": 216,
+        "score": 226,
         "earliest_entry": "2026-09-13 21:36:59 UTC",
         "most_recent_entry": "2026-09-13 22:06:17 UTC"
       },
@@ -327,27 +359,27 @@
       }
     },
     {
-      "rank": 21,
+      "rank": 23,
       "coin": "DYDX",
       "long": {
         "users": 1,
-        "score": 853,
+        "score": 871,
         "earliest_entry": "2026-09-14 10:03:59 UTC",
         "most_recent_entry": "2026-09-14 10:03:59 UTC"
       },
       "short": {
         "users": 1,
-        "score": 979,
+        "score": 970,
         "earliest_entry": "2026-09-14 13:37:59 UTC",
         "most_recent_entry": "2026-09-14 13:37:59 UTC"
       }
     },
     {
-      "rank": 22,
+      "rank": 24,
       "coin": "EIGEN",
       "long": {
         "users": 1,
-        "score": 520,
+        "score": 540,
         "earliest_entry": "2026-09-14 14:29:00 UTC",
         "most_recent_entry": "2026-09-14 14:29:00 UTC"
       },
@@ -359,12 +391,12 @@
       }
     },
     {
-      "rank": 23,
+      "rank": 25,
       "coin": "ENA",
       "long": {
-        "users": 14,
-        "score": 2875,
-        "earliest_entry": "2026-09-13 17:49:52 UTC",
+        "users": 13,
+        "score": 2814,
+        "earliest_entry": "2026-09-13 19:09:49 UTC",
         "most_recent_entry": "2026-09-14 17:39:15 UTC"
       },
       "short": {
@@ -375,27 +407,27 @@
       }
     },
     {
-      "rank": 24,
+      "rank": 26,
       "coin": "ETH",
       "long": {
-        "users": 96,
-        "score": 29478,
+        "users": 101,
+        "score": 31097,
         "earliest_entry": "2026-09-13 18:16:56 UTC",
         "most_recent_entry": "2026-09-14 17:14:06 UTC"
       },
       "short": {
-        "users": 14,
-        "score": 2973,
+        "users": 15,
+        "score": 3086,
         "earliest_entry": "2026-09-13 18:00:21 UTC",
         "most_recent_entry": "2026-09-14 17:24:58 UTC"
       }
     },
     {
-      "rank": 25,
+      "rank": 27,
       "coin": "ETHFI",
       "long": {
         "users": 7,
-        "score": 976,
+        "score": 1024,
         "earliest_entry": "2026-09-13 18:04:03 UTC",
         "most_recent_entry": "2026-09-14 07:19:40 UTC"
       },
@@ -407,11 +439,11 @@
       }
     },
     {
-      "rank": 26,
+      "rank": 28,
       "coin": "FARTCOIN",
       "long": {
         "users": 5,
-        "score": 874,
+        "score": 906,
         "earliest_entry": "2026-09-13 18:17:18 UTC",
         "most_recent_entry": "2026-09-13 22:26:50 UTC"
       },
@@ -423,11 +455,11 @@
       }
     },
     {
-      "rank": 27,
+      "rank": 29,
       "coin": "FET",
       "long": {
         "users": 1,
-        "score": 150,
+        "score": 159,
         "earliest_entry": "2026-09-14 13:49:56 UTC",
         "most_recent_entry": "2026-09-14 13:49:56 UTC"
       },
@@ -439,27 +471,27 @@
       }
     },
     {
-      "rank": 28,
+      "rank": 30,
       "coin": "FIL",
       "long": {
-        "users": 1,
-        "score": 138,
-        "earliest_entry": "2026-09-14 13:48:22 UTC",
+        "users": 2,
+        "score": 222,
+        "earliest_entry": "2026-09-14 05:11:03 UTC",
         "most_recent_entry": "2026-09-14 13:48:22 UTC"
       },
       "short": {
         "users": 1,
-        "score": 121,
+        "score": 120,
         "earliest_entry": "2026-09-14 01:18:08 UTC",
         "most_recent_entry": "2026-09-14 01:18:08 UTC"
       }
     },
     {
-      "rank": 29,
+      "rank": 31,
       "coin": "GRAM",
       "long": {
         "users": 1,
-        "score": 123,
+        "score": 131,
         "earliest_entry": "2026-09-13 21:47:52 UTC",
         "most_recent_entry": "2026-09-13 21:47:52 UTC"
       },
@@ -471,11 +503,11 @@
       }
     },
     {
-      "rank": 30,
+      "rank": 32,
       "coin": "GRASS",
       "long": {
         "users": 2,
-        "score": 307,
+        "score": 316,
         "earliest_entry": "2026-09-13 22:09:02 UTC",
         "most_recent_entry": "2026-09-14 16:17:44 UTC"
       },
@@ -487,11 +519,11 @@
       }
     },
     {
-      "rank": 31,
+      "rank": 33,
       "coin": "GRIFFAIN",
       "long": {
         "users": 1,
-        "score": 115,
+        "score": 116,
         "earliest_entry": "2026-09-14 03:43:12 UTC",
         "most_recent_entry": "2026-09-14 03:43:12 UTC"
       },
@@ -503,11 +535,11 @@
       }
     },
     {
-      "rank": 32,
+      "rank": 34,
       "coin": "HBAR",
       "long": {
         "users": 1,
-        "score": 853,
+        "score": 871,
         "earliest_entry": "2026-09-14 10:00:44 UTC",
         "most_recent_entry": "2026-09-14 10:00:44 UTC"
       },
@@ -519,43 +551,43 @@
       }
     },
     {
-      "rank": 33,
+      "rank": 35,
       "coin": "HYPE",
       "long": {
-        "users": 81,
-        "score": 18144,
+        "users": 88,
+        "score": 20026,
         "earliest_entry": "2026-09-13 18:30:14 UTC",
-        "most_recent_entry": "2026-09-14 17:40:25 UTC"
+        "most_recent_entry": "2026-09-14 17:49:48 UTC"
       },
       "short": {
         "users": 3,
-        "score": 746,
+        "score": 704,
         "earliest_entry": "2026-09-13 20:32:26 UTC",
         "most_recent_entry": "2026-09-14 02:35:41 UTC"
       }
     },
     {
-      "rank": 34,
+      "rank": 36,
       "coin": "INJ",
       "long": {
         "users": 3,
-        "score": 540,
+        "score": 554,
         "earliest_entry": "2026-09-13 20:20:14 UTC",
         "most_recent_entry": "2026-09-14 16:31:23 UTC"
       },
       "short": {
         "users": 3,
-        "score": 498,
+        "score": 475,
         "earliest_entry": "2026-09-14 03:41:29 UTC",
         "most_recent_entry": "2026-09-14 14:33:32 UTC"
       }
     },
     {
-      "rank": 35,
+      "rank": 37,
       "coin": "IO",
       "long": {
         "users": 1,
-        "score": 190,
+        "score": 201,
         "earliest_entry": "2026-09-14 01:41:54 UTC",
         "most_recent_entry": "2026-09-14 01:41:54 UTC"
       },
@@ -567,11 +599,11 @@
       }
     },
     {
-      "rank": 36,
+      "rank": 38,
       "coin": "JTO",
       "long": {
         "users": 1,
-        "score": 244,
+        "score": 252,
         "earliest_entry": "2026-09-14 16:53:09 UTC",
         "most_recent_entry": "2026-09-14 16:53:09 UTC"
       },
@@ -583,13 +615,13 @@
       }
     },
     {
-      "rank": 37,
+      "rank": 39,
       "coin": "JUP",
       "long": {
-        "users": 2,
-        "score": 292,
-        "earliest_entry": "2026-09-14 05:59:48 UTC",
-        "most_recent_entry": "2026-09-14 06:27:29 UTC"
+        "users": 4,
+        "score": 465,
+        "earliest_entry": "2026-09-14 02:38:10 UTC",
+        "most_recent_entry": "2026-09-14 07:51:05 UTC"
       },
       "short": {
         "users": 1,
@@ -599,11 +631,11 @@
       }
     },
     {
-      "rank": 38,
+      "rank": 40,
       "coin": "KAS",
       "long": {
         "users": 3,
-        "score": 1183,
+        "score": 1206,
         "earliest_entry": "2026-09-14 01:34:35 UTC",
         "most_recent_entry": "2026-09-14 12:27:49 UTC"
       },
@@ -615,11 +647,11 @@
       }
     },
     {
-      "rank": 39,
+      "rank": 41,
       "coin": "LDO",
       "long": {
         "users": 2,
-        "score": 655,
+        "score": 680,
         "earliest_entry": "2026-09-14 02:29:27 UTC",
         "most_recent_entry": "2026-09-14 14:14:46 UTC"
       },
@@ -631,11 +663,11 @@
       }
     },
     {
-      "rank": 40,
+      "rank": 42,
       "coin": "LINK",
       "long": {
         "users": 7,
-        "score": 1954,
+        "score": 1999,
         "earliest_entry": "2026-09-13 21:42:56 UTC",
         "most_recent_entry": "2026-09-14 17:39:42 UTC"
       },
@@ -647,27 +679,27 @@
       }
     },
     {
-      "rank": 41,
+      "rank": 43,
       "coin": "LIT",
       "long": {
         "users": 29,
-        "score": 7385,
+        "score": 7579,
         "earliest_entry": "2026-09-13 22:07:58 UTC",
         "most_recent_entry": "2026-09-14 16:55:52 UTC"
       },
       "short": {
         "users": 6,
-        "score": 1713,
+        "score": 1741,
         "earliest_entry": "2026-09-13 22:28:03 UTC",
         "most_recent_entry": "2026-09-14 17:21:39 UTC"
       }
     },
     {
-      "rank": 42,
+      "rank": 44,
       "coin": "LTC",
       "long": {
         "users": 5,
-        "score": 729,
+        "score": 783,
         "earliest_entry": "2026-09-13 18:43:43 UTC",
         "most_recent_entry": "2026-09-14 17:27:43 UTC"
       },
@@ -679,11 +711,11 @@
       }
     },
     {
-      "rank": 43,
+      "rank": 45,
       "coin": "MET",
       "long": {
         "users": 3,
-        "score": 557,
+        "score": 575,
         "earliest_entry": "2026-09-13 20:49:37 UTC",
         "most_recent_entry": "2026-09-14 13:36:03 UTC"
       },
@@ -695,11 +727,11 @@
       }
     },
     {
-      "rank": 44,
+      "rank": 46,
       "coin": "MINA",
       "long": {
         "users": 1,
-        "score": 115,
+        "score": 116,
         "earliest_entry": "2026-09-14 02:24:26 UTC",
         "most_recent_entry": "2026-09-14 02:24:26 UTC"
       },
@@ -711,11 +743,11 @@
       }
     },
     {
-      "rank": 45,
+      "rank": 47,
       "coin": "MNT",
       "long": {
         "users": 2,
-        "score": 231,
+        "score": 238,
         "earliest_entry": "2026-09-14 07:28:10 UTC",
         "most_recent_entry": "2026-09-14 09:14:58 UTC"
       },
@@ -727,11 +759,11 @@
       }
     },
     {
-      "rank": 46,
+      "rank": 48,
       "coin": "MON",
       "long": {
         "users": 1,
-        "score": 86,
+        "score": 95,
         "earliest_entry": "2026-09-14 06:09:11 UTC",
         "most_recent_entry": "2026-09-14 06:09:11 UTC"
       },
@@ -743,11 +775,11 @@
       }
     },
     {
-      "rank": 47,
+      "rank": 49,
       "coin": "MORPHO",
       "long": {
         "users": 3,
-        "score": 409,
+        "score": 419,
         "earliest_entry": "2026-09-13 23:12:25 UTC",
         "most_recent_entry": "2026-09-14 12:31:29 UTC"
       },
@@ -759,23 +791,23 @@
       }
     },
     {
-      "rank": 48,
+      "rank": 50,
       "coin": "NEAR",
       "long": {
-        "users": 27,
-        "score": 7280,
+        "users": 26,
+        "score": 6790,
         "earliest_entry": "2026-09-13 19:09:37 UTC",
         "most_recent_entry": "2026-09-14 17:40:04 UTC"
       },
       "short": {
         "users": 1,
-        "score": 124,
+        "score": 118,
         "earliest_entry": "2026-09-14 03:42:59 UTC",
         "most_recent_entry": "2026-09-14 03:42:59 UTC"
       }
     },
     {
-      "rank": 49,
+      "rank": 51,
       "coin": "NIL",
       "long": {
         "users": 1,
@@ -791,11 +823,11 @@
       }
     },
     {
-      "rank": 50,
+      "rank": 52,
       "coin": "ONDO",
       "long": {
         "users": 8,
-        "score": 1721,
+        "score": 1773,
         "earliest_entry": "2026-09-14 00:29:16 UTC",
         "most_recent_entry": "2026-09-14 16:53:19 UTC"
       },
@@ -807,11 +839,11 @@
       }
     },
     {
-      "rank": 51,
+      "rank": 53,
       "coin": "PAXG",
       "long": {
         "users": 1,
-        "score": 217,
+        "score": 216,
         "earliest_entry": "2026-09-14 13:28:19 UTC",
         "most_recent_entry": "2026-09-14 13:28:19 UTC"
       },
@@ -823,27 +855,27 @@
       }
     },
     {
-      "rank": 52,
+      "rank": 54,
       "coin": "PENDLE",
       "long": {
         "users": 5,
-        "score": 1565,
+        "score": 1641,
         "earliest_entry": "2026-09-13 22:01:28 UTC",
         "most_recent_entry": "2026-09-14 12:33:59 UTC"
       },
       "short": {
         "users": 1,
-        "score": 84,
+        "score": 86,
         "earliest_entry": "2026-09-14 16:28:57 UTC",
         "most_recent_entry": "2026-09-14 16:28:57 UTC"
       }
     },
     {
-      "rank": 53,
+      "rank": 55,
       "coin": "PENGU",
       "long": {
         "users": 1,
-        "score": 853,
+        "score": 871,
         "earliest_entry": "2026-09-13 23:09:08 UTC",
         "most_recent_entry": "2026-09-13 23:09:08 UTC"
       },
@@ -855,11 +887,11 @@
       }
     },
     {
-      "rank": 54,
+      "rank": 56,
       "coin": "POL",
       "long": {
         "users": 1,
-        "score": 979,
+        "score": 970,
         "earliest_entry": "2026-09-14 17:29:09 UTC",
         "most_recent_entry": "2026-09-14 17:29:09 UTC"
       },
@@ -871,27 +903,43 @@
       }
     },
     {
-      "rank": 55,
+      "rank": 57,
+      "coin": "POLYX",
+      "long": {
+        "users": 1,
+        "score": 286,
+        "earliest_entry": "2026-09-14 17:33:13 UTC",
+        "most_recent_entry": "2026-09-14 17:33:13 UTC"
+      },
+      "short": {
+        "users": 0,
+        "score": 0,
+        "earliest_entry": null,
+        "most_recent_entry": null
+      }
+    },
+    {
+      "rank": 58,
       "coin": "PONS",
       "long": {
-        "users": 22,
-        "score": 6102,
+        "users": 25,
+        "score": 6921,
         "earliest_entry": "2026-09-13 18:34:16 UTC",
         "most_recent_entry": "2026-09-14 17:14:00 UTC"
       },
       "short": {
-        "users": 4,
-        "score": 548,
-        "earliest_entry": "2026-09-13 18:10:53 UTC",
+        "users": 3,
+        "score": 332,
+        "earliest_entry": "2026-09-14 14:52:35 UTC",
         "most_recent_entry": "2026-09-14 16:40:24 UTC"
       }
     },
     {
-      "rank": 56,
+      "rank": 59,
       "coin": "POPCAT",
       "long": {
         "users": 1,
-        "score": 203,
+        "score": 217,
         "earliest_entry": "2026-09-13 18:17:09 UTC",
         "most_recent_entry": "2026-09-13 18:17:09 UTC"
       },
@@ -903,23 +951,23 @@
       }
     },
     {
-      "rank": 57,
+      "rank": 60,
       "coin": "PUMP",
       "long": {
-        "users": 26,
-        "score": 6473,
+        "users": 27,
+        "score": 6952,
         "earliest_entry": "2026-09-13 18:15:08 UTC",
         "most_recent_entry": "2026-09-14 17:24:14 UTC"
       },
       "short": {
         "users": 3,
-        "score": 331,
+        "score": 311,
         "earliest_entry": "2026-09-13 22:29:39 UTC",
         "most_recent_entry": "2026-09-14 16:56:03 UTC"
       }
     },
     {
-      "rank": 58,
+      "rank": 61,
       "coin": "PURR",
       "long": {
         "users": 3,
@@ -935,7 +983,7 @@
       }
     },
     {
-      "rank": 59,
+      "rank": 62,
       "coin": "PYTH",
       "long": {
         "users": 1,
@@ -945,17 +993,17 @@
       },
       "short": {
         "users": 1,
-        "score": 108,
+        "score": 115,
         "earliest_entry": "2026-09-14 14:17:40 UTC",
         "most_recent_entry": "2026-09-14 14:17:40 UTC"
       }
     },
     {
-      "rank": 60,
+      "rank": 63,
       "coin": "RENDER",
       "long": {
         "users": 2,
-        "score": 276,
+        "score": 296,
         "earliest_entry": "2026-09-13 21:33:29 UTC",
         "most_recent_entry": "2026-09-14 01:42:04 UTC"
       },
@@ -967,11 +1015,27 @@
       }
     },
     {
-      "rank": 61,
+      "rank": 64,
+      "coin": "RESOLV",
+      "long": {
+        "users": 1,
+        "score": 286,
+        "earliest_entry": "2026-09-14 17:30:27 UTC",
+        "most_recent_entry": "2026-09-14 17:30:27 UTC"
+      },
+      "short": {
+        "users": 0,
+        "score": 0,
+        "earliest_entry": null,
+        "most_recent_entry": null
+      }
+    },
+    {
+      "rank": 65,
       "coin": "REZ",
       "long": {
         "users": 1,
-        "score": 150,
+        "score": 159,
         "earliest_entry": "2026-09-13 18:05:08 UTC",
         "most_recent_entry": "2026-09-13 18:05:08 UTC"
       },
@@ -983,11 +1047,11 @@
       }
     },
     {
-      "rank": 62,
+      "rank": 66,
       "coin": "SEI",
       "long": {
         "users": 1,
-        "score": 411,
+        "score": 421,
         "earliest_entry": "2026-09-13 19:09:33 UTC",
         "most_recent_entry": "2026-09-13 19:09:33 UTC"
       },
@@ -999,11 +1063,27 @@
       }
     },
     {
-      "rank": 63,
+      "rank": 67,
+      "coin": "SKR",
+      "long": {
+        "users": 1,
+        "score": 286,
+        "earliest_entry": "2026-09-14 09:11:24 UTC",
+        "most_recent_entry": "2026-09-14 09:11:24 UTC"
+      },
+      "short": {
+        "users": 0,
+        "score": 0,
+        "earliest_entry": null,
+        "most_recent_entry": null
+      }
+    },
+    {
+      "rank": 68,
       "coin": "SKY",
       "long": {
         "users": 1,
-        "score": 89,
+        "score": 91,
         "earliest_entry": "2026-09-14 16:37:21 UTC",
         "most_recent_entry": "2026-09-14 16:37:21 UTC"
       },
@@ -1015,11 +1095,11 @@
       }
     },
     {
-      "rank": 64,
+      "rank": 69,
       "coin": "SOL",
       "long": {
-        "users": 28,
-        "score": 6421,
+        "users": 30,
+        "score": 6746,
         "earliest_entry": "2026-09-13 18:54:47 UTC",
         "most_recent_entry": "2026-09-14 16:52:31 UTC"
       },
@@ -1031,11 +1111,11 @@
       }
     },
     {
-      "rank": 65,
+      "rank": 70,
       "coin": "SPX",
       "long": {
         "users": 2,
-        "score": 225,
+        "score": 240,
         "earliest_entry": "2026-09-14 05:08:30 UTC",
         "most_recent_entry": "2026-09-14 11:25:34 UTC"
       },
@@ -1047,11 +1127,11 @@
       }
     },
     {
-      "rank": 66,
+      "rank": 71,
       "coin": "STRK",
       "long": {
         "users": 2,
-        "score": 510,
+        "score": 528,
         "earliest_entry": "2026-09-14 00:49:21 UTC",
         "most_recent_entry": "2026-09-14 02:49:17 UTC"
       },
@@ -1063,28 +1143,28 @@
       }
     },
     {
-      "rank": 67,
+      "rank": 72,
       "coin": "STX",
       "long": {
         "users": 1,
-        "score": 134,
+        "score": 138,
         "earliest_entry": "2026-09-14 08:42:28 UTC",
         "most_recent_entry": "2026-09-14 08:42:28 UTC"
       },
       "short": {
         "users": 1,
-        "score": 191,
+        "score": 184,
         "earliest_entry": "2026-09-14 05:27:27 UTC",
         "most_recent_entry": "2026-09-14 05:27:27 UTC"
       }
     },
     {
-      "rank": 68,
+      "rank": 73,
       "coin": "SUI",
       "long": {
         "users": 7,
-        "score": 1885,
-        "earliest_entry": "2026-09-13 17:50:49 UTC",
+        "score": 1948,
+        "earliest_entry": "2026-09-13 18:10:53 UTC",
         "most_recent_entry": "2026-09-14 15:33:09 UTC"
       },
       "short": {
@@ -1095,7 +1175,7 @@
       }
     },
     {
-      "rank": 69,
+      "rank": 74,
       "coin": "SYRUP",
       "long": {
         "users": 1,
@@ -1111,12 +1191,12 @@
       }
     },
     {
-      "rank": 70,
+      "rank": 75,
       "coin": "TAO",
       "long": {
         "users": 4,
-        "score": 491,
-        "earliest_entry": "2026-09-13 17:50:55 UTC",
+        "score": 509,
+        "earliest_entry": "2026-09-13 20:27:33 UTC",
         "most_recent_entry": "2026-09-14 13:54:06 UTC"
       },
       "short": {
@@ -1127,11 +1207,11 @@
       }
     },
     {
-      "rank": 71,
+      "rank": 76,
       "coin": "TIA",
       "long": {
         "users": 1,
-        "score": 979,
+        "score": 970,
         "earliest_entry": "2026-09-13 18:23:06 UTC",
         "most_recent_entry": "2026-09-13 18:23:06 UTC"
       },
@@ -1143,11 +1223,11 @@
       }
     },
     {
-      "rank": 72,
+      "rank": 77,
       "coin": "TRUMP",
       "long": {
         "users": 1,
-        "score": 80,
+        "score": 88,
         "earliest_entry": "2026-09-14 07:45:40 UTC",
         "most_recent_entry": "2026-09-14 07:45:40 UTC"
       },
@@ -1159,59 +1239,59 @@
       }
     },
     {
-      "rank": 73,
+      "rank": 78,
       "coin": "UNI",
       "long": {
-        "users": 12,
-        "score": 3760,
+        "users": 14,
+        "score": 4388,
         "earliest_entry": "2026-09-13 18:22:41 UTC",
-        "most_recent_entry": "2026-09-14 17:09:52 UTC"
+        "most_recent_entry": "2026-09-14 17:32:33 UTC"
       },
       "short": {
         "users": 1,
-        "score": 124,
+        "score": 118,
         "earliest_entry": "2026-09-14 03:36:10 UTC",
         "most_recent_entry": "2026-09-14 03:36:10 UTC"
       }
     },
     {
-      "rank": 74,
+      "rank": 79,
       "coin": "USELESS",
       "long": {
         "users": 3,
-        "score": 443,
+        "score": 460,
         "earliest_entry": "2026-09-13 22:29:12 UTC",
         "most_recent_entry": "2026-09-14 16:49:39 UTC"
       },
       "short": {
         "users": 2,
-        "score": 207,
+        "score": 190,
         "earliest_entry": "2026-09-14 04:34:36 UTC",
         "most_recent_entry": "2026-09-14 14:59:30 UTC"
       }
     },
     {
-      "rank": 75,
+      "rank": 80,
       "coin": "VVV",
       "long": {
         "users": 19,
-        "score": 3976,
+        "score": 4123,
         "earliest_entry": "2026-09-13 18:03:51 UTC",
         "most_recent_entry": "2026-09-14 17:05:56 UTC"
       },
       "short": {
         "users": 1,
-        "score": 119,
+        "score": 100,
         "earliest_entry": "2026-09-14 13:21:09 UTC",
         "most_recent_entry": "2026-09-14 13:21:09 UTC"
       }
     },
     {
-      "rank": 76,
+      "rank": 81,
       "coin": "WIF",
       "long": {
         "users": 1,
-        "score": 203,
+        "score": 217,
         "earliest_entry": "2026-09-13 18:17:06 UTC",
         "most_recent_entry": "2026-09-13 18:17:06 UTC"
       },
@@ -1223,13 +1303,13 @@
       }
     },
     {
-      "rank": 77,
+      "rank": 82,
       "coin": "WLD",
       "long": {
-        "users": 5,
-        "score": 1437,
+        "users": 6,
+        "score": 1761,
         "earliest_entry": "2026-09-13 18:00:43 UTC",
-        "most_recent_entry": "2026-09-14 11:03:53 UTC"
+        "most_recent_entry": "2026-09-14 17:31:50 UTC"
       },
       "short": {
         "users": 0,
@@ -1239,27 +1319,27 @@
       }
     },
     {
-      "rank": 78,
+      "rank": 83,
       "coin": "XLM",
       "long": {
         "users": 3,
-        "score": 1409,
+        "score": 1437,
         "earliest_entry": "2026-09-14 10:04:48 UTC",
         "most_recent_entry": "2026-09-14 11:59:21 UTC"
       },
       "short": {
         "users": 2,
-        "score": 332,
+        "score": 328,
         "earliest_entry": "2026-09-14 08:50:17 UTC",
         "most_recent_entry": "2026-09-14 12:39:20 UTC"
       }
     },
     {
-      "rank": 79,
+      "rank": 84,
       "coin": "XMR",
       "long": {
-        "users": 5,
-        "score": 868,
+        "users": 4,
+        "score": 808,
         "earliest_entry": "2026-09-14 06:34:58 UTC",
         "most_recent_entry": "2026-09-14 15:07:59 UTC"
       },
@@ -1271,11 +1351,11 @@
       }
     },
     {
-      "rank": 80,
+      "rank": 85,
       "coin": "XPL",
       "long": {
         "users": 7,
-        "score": 1972,
+        "score": 2087,
         "earliest_entry": "2026-09-13 19:34:26 UTC",
         "most_recent_entry": "2026-09-14 11:34:50 UTC"
       },
@@ -1287,39 +1367,39 @@
       }
     },
     {
-      "rank": 81,
+      "rank": 86,
       "coin": "XRP",
       "long": {
-        "users": 9,
-        "score": 1446,
+        "users": 12,
+        "score": 1766,
         "earliest_entry": "2026-09-13 20:47:30 UTC",
-        "most_recent_entry": "2026-09-14 17:32:04 UTC"
+        "most_recent_entry": "2026-09-14 17:41:38 UTC"
       },
       "short": {
         "users": 5,
-        "score": 1275,
+        "score": 1319,
         "earliest_entry": "2026-09-13 17:54:10 UTC",
         "most_recent_entry": "2026-09-14 17:31:09 UTC"
       }
     },
     {
-      "rank": 82,
+      "rank": 87,
       "coin": "ZEC",
       "long": {
-        "users": 75,
-        "score": 22335,
+        "users": 78,
+        "score": 23248,
         "earliest_entry": "2026-09-13 18:05:59 UTC",
         "most_recent_entry": "2026-09-14 17:36:58 UTC"
       },
       "short": {
         "users": 4,
-        "score": 773,
+        "score": 746,
         "earliest_entry": "2026-09-13 18:06:12 UTC",
         "most_recent_entry": "2026-09-14 15:08:06 UTC"
       }
     },
     {
-      "rank": 83,
+      "rank": 88,
       "coin": "ZK",
       "long": {
         "users": 1,
@@ -1335,11 +1415,11 @@
       }
     },
     {
-      "rank": 84,
+      "rank": 89,
       "coin": "ZORA",
       "long": {
         "users": 1,
-        "score": 206,
+        "score": 216,
         "earliest_entry": "2026-09-14 01:07:10 UTC",
         "most_recent_entry": "2026-09-14 01:07:10 UTC"
       },
@@ -1351,11 +1431,11 @@
       }
     },
     {
-      "rank": 85,
+      "rank": 90,
       "coin": "ZRO",
       "long": {
         "users": 1,
-        "score": 89,
+        "score": 91,
         "earliest_entry": "2026-09-14 12:24:12 UTC",
         "most_recent_entry": "2026-09-14 12:24:12 UTC"
       },
@@ -1367,11 +1447,11 @@
       }
     },
     {
-      "rank": 86,
+      "rank": 91,
       "coin": "kPEPE",
       "long": {
         "users": 3,
-        "score": 554,
+        "score": 582,
         "earliest_entry": "2026-09-14 02:00:02 UTC",
         "most_recent_entry": "2026-09-14 10:45:58 UTC"
       },
