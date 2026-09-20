@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-20T00:18:26+00:00",
+  "generatedAt": "2026-09-20T00:28:06+00:00",
   "generatedBy": "appUnified.py",
   "sortedBy": "allTime",
   "rowsWritten": 100,
-  "rowsWithOpenTrades": 0,
-  "openTradesTotal": 0,
+  "rowsWithOpenTrades": 1,
+  "openTradesTotal": 3,
   "leaderboardRows": [
     {
       "ethAddress": "0x393d0b87ed38fc779fd9611144ae649ba6082109",
@@ -3644,12 +3644,64 @@
         ],
         [
           "OpenTrades",
-          []
+          [
+            {
+              "Token ticker": "HYPE",
+              "Side": "Long",
+              "entrySize USD notional": "2763157.12",
+              "entrySize USD leveraged": "13815785.61",
+              "entrySize HYPE leveraged": "225978.91",
+              "Leverage": "5x",
+              "leverageType": "cross",
+              "entryPrice": 61.1375,
+              "openTime": 1789863946862,
+              "openTimeIso": "2026-09-20T00:25:46+00:00",
+              "positionValue": "20846554.4475000016",
+              "unrealizedPnl": "7030755.898298",
+              "returnOnEquity": "2.5444623679",
+              "liquidationPx": null,
+              "marginUsed": "4169310.8895"
+            },
+            {
+              "Token ticker": "ZEC",
+              "Side": "Long",
+              "entrySize USD notional": "946612.21",
+              "entrySize USD leveraged": "9466122.09",
+              "entrySize ZEC leveraged": "7641.17",
+              "Leverage": "10x",
+              "leverageType": "cross",
+              "entryPrice": 1238.8315,
+              "openTime": 1789863946862,
+              "openTimeIso": "2026-09-20T00:25:46+00:00",
+              "positionValue": "11232519.9000000004",
+              "unrealizedPnl": "1766397.5698559999",
+              "returnOnEquity": "1.8660202227",
+              "liquidationPx": null,
+              "marginUsed": "1123251.99"
+            },
+            {
+              "Token ticker": "NEAR",
+              "Side": "Long",
+              "entrySize USD notional": "33377.38",
+              "entrySize USD leveraged": "333773.78",
+              "entrySize NEAR leveraged": "136546.3",
+              "Leverage": "10x",
+              "leverageType": "cross",
+              "entryPrice": 2.4444,
+              "openTime": 1789863946862,
+              "openTimeIso": "2026-09-20T00:25:46+00:00",
+              "positionValue": "487156.23451",
+              "unrealizedPnl": "153382.45879",
+              "returnOnEquity": "4.5954017346",
+              "liquidationPx": null,
+              "marginUsed": "48715.623451"
+            }
+          ]
         ]
       ],
       "prize": 0,
       "displayName": null,
-      "openTradeCount": 0
+      "openTradeCount": 3
     },
     {
       "ethAddress": "0x807a2e2e469df84b299da5f90f15dda4380daca1",
